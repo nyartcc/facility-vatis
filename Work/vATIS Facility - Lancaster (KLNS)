@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KLNS" Name="Lancaster" UpdatedOn="0001-01-01T00:00:00">
+  <VoiceServer>rw.liveatc.net</VoiceServer>
+  <AtisFrequency>125.67</AtisFrequency>
+  <MagneticVariation>10</MagneticVariation>
+  <ObservationTime>53</ObservationTime>
+  <MetarObsTimeCheck>true</MetarObsTimeCheck>
+  <AtisContractions />
+  <IsVoiceRecorded>true</IsVoiceRecorded>
+  <Profiles>
+    <Profile Name="MANUAL">
+      <Approaches>VIS APCHS IN USE. LDG AND DEPTG RY 8.</Approaches>
+      <Notams>VFR ACFT SAY DIRECTION OF FLIGHT.</Notams>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
+    </Profile>
+  </Profiles>
+</Facility>

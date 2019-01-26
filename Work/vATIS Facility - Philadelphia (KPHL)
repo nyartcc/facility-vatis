@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KPHL" Name="Kennedy" UpdatedOn="0001-01-01T00:00:00">
-  <VoiceServer>voice.nyartcc.org</VoiceServer>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KPHL" Name="Philadelphia" UpdatedOn="0001-01-01T00:00:00">
+  <VoiceServer>rw.liveatc.net</VoiceServer>
   <AtisFrequency>133.400</AtisFrequency>
   <MagneticVariation>10</MagneticVariation>
   <ObservationTime>51</ObservationTime>
