@@ -10,7 +10,7 @@
   <Profiles>
     <Profile Name="MANUAL">
       <Approaches>VIS APCHS IN USE. LDG AND DEPTG RY 13.</Approaches>
-      <Notams>VFR ACFT SAY DIRECTION OF FLIGHT</Notams>
+      <Notams>VFR ACFT SAY DIRECTION OF FLIGHT.</Notams>
       <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
   </Profiles>

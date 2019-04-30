@@ -3,21 +3,22 @@
   <VoiceServer>rw.liveatc.net</VoiceServer>
   <AtisFrequency>133.800</AtisFrequency>
   <MagneticVariation>10</MagneticVariation>
-  <ObservationTime>51</ObservationTime>
+  <ObservationTime>56</ObservationTime>
   <MetarObsTimeCheck>true</MetarObsTimeCheck>
   <AtisContractions>
     <AtisContraction Find="HPN" Replace="WESTCHESTER" />
   </AtisContractions>
+  <IsVoiceRecorded>false</IsVoiceRecorded>
   <Profiles>
-    <Profile Name="ILS 16/DEP 16">
+    <Profile Name="ILS 16 - DEP 16">
       <Approaches>APCH IN USE ILS RY 16. DEPTG RY 16.</Approaches>
       <Notams />
-      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP. $NOTAMS. BIV HPN ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.  ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP. $NOTAMS. BIRD ACTIVITY VICINITY HPN ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.  ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-	<Profile Name="ILS 34/DEP 34">
+    <Profile Name="ILS 34 - DEP 34">
       <Approaches>APCH IN USE ILS RY 34. DEPTG RY 34.</Approaches>
       <Notams />
-      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP. $NOTAMS. BIV HPN ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.  ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP. $NOTAMS. BIRD ACTIVITY VICINITY HPN ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.  ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
   </Profiles>
 </Facility>
