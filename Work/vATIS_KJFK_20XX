@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KJFK" Name="Kennedy" UpdatedOn="2020-01-01T15:44:10.8596158+01:00">
+  <Frequency>28720</Frequency>
+  <VoiceServer>rw.liveatc.net</VoiceServer>
+  <InformationDisplaySystemEndpoint />
+  <MetarObservation ObservationTimeValue="51" Enable="true" />
+  <MagneticVariation MagneticVariationValue="10" Option="Add" />
+  <Contractions>
+    <Contraction Key="RNGRR" Value="RANGER" />
+    <Contraction Key="JFK" Value="KENNEDY" />
+  </Contractions>
+  <Profiles>
+    <Profile Name="ILS 22L - DEP 22R">
+      <AirportConditions>APCH IN USE ILS RY 22L. DEPTG RY 22R.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY ARPT. NUM CRANES OPERATING AT JFK. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS 31R VIS 31L - DEP 31L">
+      <AirportConditions>APCH IN USE ILS RY 31R, VIS RY 31L. DEPTG RY 31L.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY ARPT. NUM CRANES OPERATING AT JFK. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS 4R - DEP 4L">
+      <AirportConditions>APCH IN USE ILS RY 4R. DEPTG RY 4L.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY ARPT. NUM CRANES OPERATING AT JFK. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS 13L - DEP 13R">
+      <AirportConditions>APCH IN USE ILS RY 13L. DEPTG RY 13R.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY ARPT. NUM CRANES OPERATING AT JFK. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="VOR 13L - DEP 13R">
+      <AirportConditions>APCH IN USE VOR RY 13L. DEPTG RY 13R.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY ARPT. NUM CRANES OPERATING AT JFK. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="VOR 13L VOR 22L - DEP 13R">
+      <AirportConditions>APCH IN USE VOR RY 13L, VOR RY 22L. DEPTG RY 13R.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY ARPT. NUM CRANES OPERATING AT JFK. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS 22L - DEP 22R 31L@KE">
+      <AirportConditions>APCH IN USE ILS RY 22L. DEPTG RY 22R, ACFT FILED OVER +RBV, DIXIE, +ARD, OR WHITE EXP RY 31L FROM INT *KE. RY 31L FROM INT *KE, *10,900 FT TODA.
+</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY ARPT. NUM CRANES OPERATING AT JFK. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS 4L ILS 4R - DEP 4L 31L@KE">
+      <AirportConditions>APCH IN USE ILS RY 4L, ILS RY 4R. DEPTG RY 4L, ACFT FILED OVER +RBV, DIXIE, +ARD, OR WHITE EXP RY 31L FROM INT *KE. RY 31L FROM INT *KE, *10,900 FT TODA.
+</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY ARPT. NUM CRANES OPERATING AT JFK. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+  </Profiles>
+  <UseInternationalFormat>false</UseInternationalFormat>
+  <VoiceRecordEnabled>false</VoiceRecordEnabled>
+  <VoiceName>Default</VoiceName>
+  <VoiceGender>Male</VoiceGender>
+  <Notams>
+    <Notam Message="NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT" IsSelected="false" />
+    <Notam Message="GROUND METERING IN EFFECT" IsSelected="false" />
+    <Notam Message="BA ADVZYS IN EFCT" IsSelected="false" />
+    <Notam Message="WIND SHEAR ADVZYS IN EFCT" IsSelected="false" />
+    <Notam Message="HAZD WX INFO FOR JFK AREA AVBL ATC FREQ BY RQST" IsSelected="false" />
+  </Notams>
+  <AirportConditions />
+</Facility>
