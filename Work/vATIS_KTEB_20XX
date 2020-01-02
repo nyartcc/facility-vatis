@@ -10,12 +10,12 @@
   </Contractions>
   <Profiles>
     <Profile Name="ILS 19 - DEP 24">
-      <AirportConditions>ILS RY 19 APCH IN USE. DEPTG RY 24.</AirportConditions>
+      <AirportConditions>ILS RY 19 APCH IN USE. LDG RY 19, DEPTG RY 24.</AirportConditions>
       <Notams />
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY TEB ARPT. TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED. ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.</AtisTemplate>
     </Profile>
     <Profile Name="ILS 6 - DEP 1">
-      <AirportConditions>ILS RY 6 APCH IN USE. DEPTG RY 1.</AirportConditions>
+      <AirportConditions>ILS RY 6 APCH IN USE. LDG RY 6, DEPTG RY 1.</AirportConditions>
       <Notams />
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY TEB ARPT. TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED. ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.</AtisTemplate>
     </Profile>
@@ -31,7 +31,7 @@
     <Notam Message="WIND SHEAR ADVZYS IN EFCT" IsSelected="false" />
     <Notam Message="HAZD WX INFO FOR TEB AREA AVBL ATC FREQ BY RQST" IsSelected="false" />
     <Notam Message="ALL VFR DEPARTURES CONTACT CLEARANCE DELIVERY ON 128.05." IsSelected="false" />
-    <Notam Message="CONTACT TWR ON 119.5 FOR TAXI." IsSelected="false" />
+    <Notam Message="ALL POSITIONS COMBINED ON TWR FREQ 119.5." IsSelected="false" />
     <Notam Message="ADVISE ON INITIAL CONTACT IF UNABLE TO ACCEPT THE RUUDY DEP." IsSelected="false" />
   </Notams>
   <AirportConditions />

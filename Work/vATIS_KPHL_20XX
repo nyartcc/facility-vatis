@@ -94,6 +94,7 @@
     <Notam Message="BA ADVZYS IN EFCT" IsSelected="false" />
     <Notam Message="WIND SHEAR ADVZYS IN EFCT" IsSelected="false" />
     <Notam Message="HAZD WX INFO FOR PHL AREA AVBL ATC FREQ BY RQST" IsSelected="false" />
+	<Notam Message="ALL ACFT USE TWR FREQ 118.5." IsSelected="false" />
     <Notam Message="ACFT USING RY 27L CTC TWR 135.1. ALL OTHER ACFT USE FREQ 118.5." IsSelected="false" />
     <Notam Message="ACFT USING RY 9L CTC TWR 118.5. ALL OTHER ACFT USE FREQ 135.1." IsSelected="false" />
   </Notams>

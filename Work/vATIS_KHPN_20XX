@@ -50,7 +50,7 @@
     <Notam Message="BA ADVZYS IN EFCT" IsSelected="false" />
     <Notam Message="WIND SHEAR ADVZYS IN EFCT" IsSelected="false" />
     <Notam Message="HAZD WX INFO FOR HPN AREA AVBL ATC FREQ BY RQST" IsSelected="false" />
-	<Notam Message="LAHSO IN EFCT" IsSelected="false" />
+    <Notam Message="LAHSO IN EFCT" IsSelected="false" />
   </Notams>
   <AirportConditions />
 </Facility>
