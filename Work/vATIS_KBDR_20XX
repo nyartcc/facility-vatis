@@ -24,20 +24,20 @@
   </Notams>
   <AirportConditions>
     <AirportCondition Message="======= STEP 1: SELECT APPROACH(ES) IN USE =======" IsSelected="false" />
-	    <AirportCondition Message="VISUAL APPROACHES IN USE." IsSelected="false" />
+    <AirportCondition Message="VISUAL APPROACHES IN USE." IsSelected="false" />
     <AirportCondition Message="ILS APCH RWY 6 IN USE." IsSelected="false" />
     <AirportCondition Message="RNAV APCH RWY 24 IN USE." IsSelected="false" />
     <AirportCondition Message="RNAV APCH RWY 29 IN USE." IsSelected="false" />
     <AirportCondition Message="=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===" IsSelected="false" />
     <AirportCondition Message="LANDING AND DEPARTING RWY 6." IsSelected="false" />
     <AirportCondition Message="LANDING AND DEPARTING RWY 11." IsSelected="false" />
-	<AirportCondition Message="LANDING AND DEPARTING RWY 24." IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RWY 24." IsSelected="false" />
     <AirportCondition Message="LANDING AND DEPARTING RWY 29." IsSelected="false" />
-	<AirportCondition Message="== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==" IsSelected="false" />
-	<AirportCondition Message="RWY 6 AVAILABLE ON REQUEST." IsSelected="false" />
-	<AirportCondition Message="RWY 24 AVAILABLE ON REQUEST." IsSelected="false" />
-	<AirportCondition Message="VISUAL APCH AVAILABLE ON REQUEST." IsSelected="false" />
-	<AirportCondition Message="INSTRUMENT APCH AVAILABLE ON REQUEST." IsSelected="false" />
-	<AirportCondition Message="RNAV APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==" IsSelected="false" />
+    <AirportCondition Message="RWY 6 AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="RWY 24 AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="VISUAL APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="INSTRUMENT APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="RNAV APCH AVAILABLE ON REQUEST." IsSelected="false" />
   </AirportConditions>
 </Facility>

@@ -35,9 +35,9 @@
     <AirportCondition Message="LANDING AND DEPARTING RWY 24." IsSelected="false" />
     <AirportCondition Message="LANDING RWY 15R. DEPARTING RWYS 15R AND 15L." IsSelected="false" />
     <AirportCondition Message="LANDING RWY 33L. DEPARTING RWYS 33L AND 33R." IsSelected="false" />
-	<AirportCondition Message="== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==" IsSelected="false" />
-	<AirportCondition Message="VISUAL APCH AVAILABLE ON REQUEST." IsSelected="false" />
-	<AirportCondition Message="INSTRUMENT APCH AVAILABLE ON REQUEST." IsSelected="false" />
-	<AirportCondition Message="RNAV APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==" IsSelected="false" />
+    <AirportCondition Message="VISUAL APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="INSTRUMENT APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="RNAV APCH AVAILABLE ON REQUEST." IsSelected="false" />
   </AirportConditions>
 </Facility>
