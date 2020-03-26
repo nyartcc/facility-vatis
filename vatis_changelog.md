@@ -1,17 +1,14 @@
 # Changelog
 All notable changes to the vATIS profiles will be documented in this changelog.
 
-## [20XX.0] - 2020-01-02
-### vATIS Profiles: JFK, LGA, EWR, PHL, TEB and HPN 
+## [2004.0] - 2020-03-26
 - Updated to ensure compatibility with vATIS version 3.1.x.x
 - Added pre-defined NOTAM messages (new feature in vATIS version 3.1.x.x)
 - Removed the NOTAM: CPDLC OPERATIONAL (not listed in the real-world D-ATIS anymore)
 - Fixed an issue where airport names wouldn't be pronounced properly (reference [issue 4](https://gitlab.com/ny-artcc/facility-files/vatis/issues/4))
 - Updated formatting in the JFK vATIS profile to match the real world D-ATIS
 - Added more configs in the HPN vATIS profile
-
-### vATIS Profiles: Minor Airports Package
-- Initial Release.
+- Added Minor Airports Package with TEB, HPN, BDR, ISP, LNS and MDT airports (expect more to come). Included a README file with instructions on how to use these profiles.
 
 ## [1912.0] - 2019-11-17
 ### JFK vATIS Profile
