@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
-<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KISP" Name="Long Island" UpdatedOn="2020-01-02T10:43:44.5249691+01:00">
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KISP" Name="Long Island" UpdatedOn="2020-12-25T22:30:37.3889972+01:00">
   <Frequency>20720</Frequency>
   <VoiceServer>rw.liveatc.net</VoiceServer>
   <InformationDisplaySystemEndpoint />
   <MetarObservation ObservationTimeValue="56" Enable="true" />
   <MagneticVariation MagneticVariationValue="10" Option="Add" />
-  <Contractions />
+  <Contractions>
+    <Contraction Key="ISP" Value="LONG ISLAND" />
+  </Contractions>
   <Profiles>
     <Profile Name="PRESS &quot;ARPT COND&quot; TO START">
       <AirportConditions />

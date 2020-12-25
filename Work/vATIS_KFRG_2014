@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KFRG" Name="Republic" UpdatedOn="2020-12-25T23:49:30.0772248+01:00">
+  <Frequency>26650</Frequency>
+  <InformationDisplaySystemEndpoint />
+  <MetarObservation ObservationTimeValue="53" Enable="true" />
+  <MagneticVariation MagneticVariationValue="10" Option="Add" />
+  <Contractions />
+  <Profiles>
+    <Profile Name="PRESS &quot;ARPT COND&quot; TO START">
+      <AtisTemplate>[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].</AtisTemplate>
+    </Profile>
+  </Profiles>
+  <UseInternationalFormat>false</UseInternationalFormat>
+  <VoiceRecordEnabled>true</VoiceRecordEnabled>
+  <VoiceName>Default</VoiceName>
+  <VoiceGender>Male</VoiceGender>
+  <Notams>
+    <Notam Message="NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT." IsSelected="false" />
+    <Notam Message="GROUND METERING IN EFFECT." IsSelected="false" />
+    <Notam Message="SEVERE WEATHER AVOIDANCE PLAN IN EFFECT." IsSelected="false" />
+    <Notam Message="BA ADVZYS IN EFCT." IsSelected="false" />
+    <Notam Message="WIND SHEAR ADVZYS IN EFCT." IsSelected="false" />
+    <Notam Message="HAZD WX INFO FRG BDR AREA AVBL ATC FREQ BY RQST." IsSelected="false" />
+    <Notam Message="VFR ACFT SAY DIRECTION OF FLIGHT." IsSelected="false" />
+  </Notams>
+  <AirportConditions>
+    <AirportCondition Message="======= STEP 1: SELECT APPROACH(ES) IN USE =======" IsSelected="false" />
+    <AirportCondition Message="RNAV RUNWAY 1 APPROACH IN USE." IsSelected="false" />
+    <AirportCondition Message="NDB RUNWAY 1 APPROACH IN USE." IsSelected="false" />
+    <AirportCondition Message="ILS RUNWAY 14 APPROACH IN USE." IsSelected="false" />
+    <AirportCondition Message="RNAV Y RUNWAY 14 APPROACH IN USE." IsSelected="false" />
+    <AirportCondition Message="RNAV Z RUNWAY 14 APPROACH IN USE." IsSelected="false" />
+    <AirportCondition Message="RNAV RUNWAY 19 APPROACH IN USE." IsSelected="false" />
+    <AirportCondition Message="RNAV RUNWAY 32 APPROACH IN USE." IsSelected="false" />
+    <AirportCondition Message="=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===" IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 1." IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 14." IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 19." IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 32." IsSelected="false" />
+    <AirportCondition Message="== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==" IsSelected="false" />
+    <AirportCondition Message="VISUAL APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="INSTRUMENT APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="RNAV APCH AVAILABLE ON REQUEST." IsSelected="false" />
+  </AirportConditions>
+</Facility>

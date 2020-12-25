@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KTEB" Name="Teterboro" UpdatedOn="2020-01-01T22:40:59.7598012+01:00">
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KTEB" Name="Teterboro" UpdatedOn="2020-12-25T22:28:36.7005735+01:00">
   <Frequency>32850</Frequency>
   <VoiceServer>rw.liveatc.net</VoiceServer>
   <InformationDisplaySystemEndpoint />
@@ -7,6 +7,7 @@
   <MagneticVariation MagneticVariationValue="10" Option="Add" />
   <Contractions>
     <Contraction Key="TEB" Value="TETERBORO" />
+    <Contraction Key="RNAV" Value="ARE-NAV" />
   </Contractions>
   <Profiles>
     <Profile Name="ILS 19 - DEP 24">
@@ -17,6 +18,14 @@
     <Profile Name="ILS 6 - DEP 1">
       <AirportConditions>ILS RY 6 APCH IN USE. LDG RY 6, DEPTG RY 1.</AirportConditions>
       <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY TEB ARPT. TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED. ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS 19 - DEP 19">
+      <AirportConditions>ILS RY 19 APCH IN USE. LDG RY 19, DEPTG RY 19.</AirportConditions>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY TEB ARPT. TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED. ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="RNAV 24 - DEP 24">
+      <AirportConditions>RNAV RY 24 APCH IN USE. LDG RY 24, DEPTG RY 24.</AirportConditions>
       <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY TEB ARPT. TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED. ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.</AtisTemplate>
     </Profile>
   </Profiles>

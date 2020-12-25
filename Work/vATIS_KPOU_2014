@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
-<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KBDR" Name="Bridgeport" UpdatedOn="2020-01-02T10:56:31.4932191+01:00">
-  <Frequency>19150</Frequency>
-  <VoiceServer>rw.liveatc.net</VoiceServer>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KPOU" Name="Dutchess County" UpdatedOn="2020-12-25T23:27:30.2089349+01:00">
+  <Frequency>26750</Frequency>
   <InformationDisplaySystemEndpoint />
-  <MetarObservation ObservationTimeValue="52" Enable="true" />
+  <MetarObservation ObservationTimeValue="53" Enable="true" />
   <MagneticVariation MagneticVariationValue="10" Option="Add" />
   <Contractions />
   <Profiles>
@@ -19,23 +18,22 @@
     <Notam Message="SEVERE WEATHER AVOIDANCE PLAN IN EFFECT." IsSelected="false" />
     <Notam Message="BA ADVZYS IN EFCT." IsSelected="false" />
     <Notam Message="WIND SHEAR ADVZYS IN EFCT." IsSelected="false" />
-    <Notam Message="HAZD WX INFO FOR BDR AREA AVBL ATC FREQ BY RQST." IsSelected="false" />
-    <Notam Message="LAHSO IN EFCT." IsSelected="false" />
+    <Notam Message="HAZD WX INFO FOR POU AREA AVBL ATC FREQ BY RQST." IsSelected="false" />
+    <Notam Message="VFR ACFT SAY DIRECTION OF FLIGHT." IsSelected="false" />
   </Notams>
   <AirportConditions>
     <AirportCondition Message="======= STEP 1: SELECT APPROACH(ES) IN USE =======" IsSelected="false" />
-    <AirportCondition Message="VISUAL APPROACHES IN USE." IsSelected="false" />
-    <AirportCondition Message="ILS APCH RWY 6 IN USE." IsSelected="false" />
-    <AirportCondition Message="RNAV APCH RWY 24 IN USE." IsSelected="false" />
-    <AirportCondition Message="RNAV APCH RWY 29 IN USE." IsSelected="false" />
+    <AirportCondition Message="ILS RUNWAY 6 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV RUNWAY 6 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV RUNWAY 24 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="VOR RUNWAY 24 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="VOR - A APPROACH IN USE" IsSelected="false" />
     <AirportCondition Message="=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===" IsSelected="false" />
-    <AirportCondition Message="LANDING AND DEPARTING RWY 6." IsSelected="false" />
-    <AirportCondition Message="LANDING AND DEPARTING RWY 11." IsSelected="false" />
-    <AirportCondition Message="LANDING AND DEPARTING RWY 24." IsSelected="false" />
-    <AirportCondition Message="LANDING AND DEPARTING RWY 29." IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 6" IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 15" IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 24" IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 33" IsSelected="false" />
     <AirportCondition Message="== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==" IsSelected="false" />
-    <AirportCondition Message="RWY 6 AVAILABLE ON REQUEST." IsSelected="false" />
-    <AirportCondition Message="RWY 24 AVAILABLE ON REQUEST." IsSelected="false" />
     <AirportCondition Message="VISUAL APCH AVAILABLE ON REQUEST." IsSelected="false" />
     <AirportCondition Message="INSTRUMENT APCH AVAILABLE ON REQUEST." IsSelected="false" />
     <AirportCondition Message="RNAV APCH AVAILABLE ON REQUEST." IsSelected="false" />

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KAVP" Name="Scranton" UpdatedOn="2020-12-25T23:14:53.6854143+01:00">
+  <Frequency>20270</Frequency>
+  <InformationDisplaySystemEndpoint />
+  <MetarObservation ObservationTimeValue="54" Enable="true" />
+  <MagneticVariation MagneticVariationValue="10" Option="Add" />
+  <Contractions />
+  <Profiles>
+    <Profile Name="PRESS &quot;ARPT COND&quot; TO START">
+      <AtisTemplate>[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].</AtisTemplate>
+    </Profile>
+  </Profiles>
+  <UseInternationalFormat>false</UseInternationalFormat>
+  <VoiceRecordEnabled>true</VoiceRecordEnabled>
+  <VoiceName>Default</VoiceName>
+  <VoiceGender>Male</VoiceGender>
+  <Notams>
+    <Notam Message="SEVERE WEATHER AVOIDANCE PLAN IN EFFECT." IsSelected="false" />
+    <Notam Message="BA ADVZYS IN EFCT." IsSelected="false" />
+    <Notam Message="WIND SHEAR ADVZYS IN EFCT." IsSelected="false" />
+    <Notam Message="HAZD WX INFO FOR AVP AREA AVBL ATC FREQ BY RQST." IsSelected="false" />
+    <Notam Message="VFR ACFT SAY DIRECTION OF FLIGHT." IsSelected="false" />
+  </Notams>
+  <AirportConditions>
+    <AirportCondition Message="======= STEP 1: SELECT APPROACH(ES) IN USE =======" IsSelected="false" />
+    <AirportCondition Message="ILS OR LOC RUNWAY 4 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV RUNWAY 4 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="ILS OR LOC RUNWAY 22 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV RUNWAY 22 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===" IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 4" IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 22" IsSelected="false" />
+    <AirportCondition Message="== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==" IsSelected="false" />
+    <AirportCondition Message="RNAV APPROACH AVAILABLE ON REQUEST" IsSelected="false" />
+    <AirportCondition Message="VISUAL APPROACH AVAILABLE ON REQUEST" IsSelected="false" />
+  </AirportConditions>
+</Facility>
