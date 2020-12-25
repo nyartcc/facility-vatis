@@ -4,6 +4,7 @@ All notable changes to the vATIS profiles will be documented in this changelog.
 
 ## [2014.0] - 2021-01-04
 - Added **all** minor facilities in the 'Minor Airports package'
+- Replaced VOR 13L configs with RNAV 13L in JFK profile
 
 ## [2004.0] - 2020-03-26
 ### vATIS Profiles: JFK, LGA, EWR, PHL, TEB and HPN 
