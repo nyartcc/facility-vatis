@@ -66,6 +66,7 @@ All notable changes to the vATIS profiles will be documented in this changelog.
 - Kennedy vATIS Profile Updated
 
 # Differences
-[1912.0]: https://gitlab.com/ny-artcc/facility-files/vatis/compare/v1905.0...v1912.0
-[1905.0]: https://gitlab.com/ny-artcc/facility-files/vatis/compare/1901.1...1905.0
-[1901.1]: https://gitlab.com/ny-artcc/facility-files/vrc/compare/1803.0...1901.1
+[2014.0]: https://gitlab.com/ny-artcc/facility-files/vatis/compare/v2004...v2014
+[2004.0]: https://gitlab.com/ny-artcc/facility-files/vatis/compare/v1912...v2004
+[1912.0]: https://gitlab.com/ny-artcc/facility-files/vatis/compare/v1905...v1912
+[1905.0]: https://gitlab.com/ny-artcc/facility-files/vatis/compare/v1901...v1905
