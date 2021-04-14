@@ -1,6 +1,8 @@
 # Changelog
 All notable changes to the vATIS profiles will be documented in this changelog.
 
+## [2103.1] - 2021-04-14
+- Added KITH vATIS profile
 
 ## [2014.0] - 2021-01-04
 - Added **all** minor facilities in the 'Minor Airports package'
