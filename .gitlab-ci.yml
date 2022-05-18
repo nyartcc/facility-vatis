@@ -13,11 +13,11 @@ generate_archives:
     - apk add --no-cache zip
   script:
     - echo 'bundling N90 profiles...'
-    - zip -j vATIS_${CI_COMMIT_BRANCH}_N90_${CI_COMMIT_TAG:1}.zip profiles/*.json
+    - zip -j vATIS_${CI_COMMIT_BRANCH}_N90_${CI_COMMIT_TAG:1}.zip source/*.json
     - echo 'bundling center profiles...'
-    - zip -j vATIS_${CI_COMMIT_BRANCH}_ZNY_${CI_COMMIT_TAG:1}.zip profiles/center/*.json
+    - zip -j vATIS_${CI_COMMIT_BRANCH}_ZNY_${CI_COMMIT_TAG:1}.zip source/center/*.json
     - echo 'bundling minor profiles...'
-    - zip -j vATIS_${CI_COMMIT_BRANCH}_MINOR_${CI_COMMIT_TAG:1}.zip profiles/minor/*.json
+    - zip -j vATIS_${CI_COMMIT_BRANCH}_MINOR_${CI_COMMIT_TAG:1}.zip source/minor/*.json
   artifacts:
     untracked: true
     expire_in: 180 days
