@@ -13,18 +13,18 @@ generate_archives:
     - apk add --no-cache zip
   script:
     - echo 'bundling N90 profiles...'
-    - zip -j vATIS_${CI_COMMIT_BRANCH}_N90_${CI_COMMIT_TAG:1}.zip source/*.json
+    - zip -j vATIS-v4_N90_${CI_COMMIT_TAG:1}.zip source/*.json
     - echo 'bundling center profiles...'
-    - zip -j vATIS_${CI_COMMIT_BRANCH}_ZNY_${CI_COMMIT_TAG:1}.zip source/center/*.json
+    - zip -j vATIS-v4_ZNY_${CI_COMMIT_TAG:1}.zip source/center/*.json
     - echo 'bundling minor profiles...'
-    - zip -j vATIS_${CI_COMMIT_BRANCH}_MINOR_${CI_COMMIT_TAG:1}.zip source/minor/*.json
+    - zip -j vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip source/minor/*.json
   artifacts:
     untracked: true
     expire_in: 180 days
     paths:
-      - vATIS_${CI_COMMIT_BRANCH}_N90_${CI_COMMIT_TAG:1}.zip
-      - vATIS_${CI_COMMIT_BRANCH}_ZNY_${CI_COMMIT_TAG:1}.zip
-      - vATIS_${CI_COMMIT_BRANCH}_MINOR_${CI_COMMIT_TAG:1}.zip
+      - vATIS-v4_N90_${CI_COMMIT_TAG:1}.zip
+      - vATIS-v4_ZNY_${CI_COMMIT_TAG:1}.zip
+      - vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip
     reports:
       dotenv: generate_archives.env
 release:
@@ -41,8 +41,8 @@ release:
     assets:
       links:
         - name: 'vATIS ${CI_COMMIT_BRANCH}: N90 profiles by area'
-          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS_${CI_COMMIT_BRANCH}_N90_${CI_COMMIT_TAG:1}.zip'
+          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_N90_${CI_COMMIT_TAG:1}.zip'
         - name: 'vATIS ${CI_COMMIT_BRANCH}: Center profiles by area'
-          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS_${CI_COMMIT_BRANCH}_ZNY_${CI_COMMIT_TAG:1}.zip'
+          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_ZNY_${CI_COMMIT_TAG:1}.zip'
         - name: 'vATIS ${CI_COMMIT_BRANCH}: Minor profiles by airport'
-          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS_${CI_COMMIT_BRANCH}_MINOR_${CI_COMMIT_TAG:1}.zip'
+          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip'
