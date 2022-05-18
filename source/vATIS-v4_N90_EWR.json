@@ -1,0 +1,588 @@
+{
+    "Name": "N90 Newark Area",
+    "Composites": [
+      {
+        "Name": "Newark",
+        "Identifier": "KEWR",
+        "AtisType": 0,
+        "Contractions": [
+          {
+            "String": "EWR",
+            "Spoken": "NEWARK"
+          },
+          {
+            "String": "RNAV",
+            "Spoken": "ARE-NAV"
+          }
+        ],
+        "AtisFrequency": 34825,
+        "ObservationTime": {
+          "Enabled": true,
+          "Time": 51
+        },
+        "MagneticVariation": {
+          "Enabled": true,
+          "MagneticDegrees": 10
+        },
+        "AtisVoice": {
+          "UseTextToSpeech": true,
+          "Voice": "Default"
+        },
+        "IDSEndpoint": null,
+        "Presets": [
+          {
+            "Name": "ILS 22R - DEP 22L@W",
+            "AirportConditions": "ILS RY 22L APCH IN USE. DEPTG RY 22R FROM INT *W, *10,150 FT TODA.",
+            "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          },
+          {
+            "Name": "ILS 4R - DEP 4L",
+            "AirportConditions": "ILS RY 4R APCH IN USE. GLS APPROACH AVAILABLE UPON REQUEST. DEPTG RY 4L.",
+            "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          },
+          {
+            "Name": "STADIUM 29 - DEP 22R@Y",
+            "AirportConditions": "STADIUM VIS RY 29 APCH IN USE. ILS RY 22L APCH AVBL UPON RQST. DEPTG RY 22R FROM INT *Y, *9,850 FT TODA.",
+            "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          },
+          {
+            "Name": "BRIDGE 29 - DEP 4L",
+            "AirportConditions": "BRIDGE VIS RY 29 APCH IN USE. ILS RY 4R APCH AVBL UPON RQST. DEPTG RY 4L.",
+            "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          },
+          {
+            "Name": "RNAV Y 29 - DEP 22R@Y",
+            "AirportConditions": "RNAV *Y RY 29 APCH IN USE. ILS RY 22L APCH AVBL UPON RQST. DEPTG RY 22R FROM INT *Y, *9,850 FT TODA.",
+            "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          },
+          {
+            "Name": "RNAV Z 29 - DEP 4L",
+            "AirportConditions": "RNAV *Z RY 29 APCH IN USE. ILS RY 4R APCH AVBL UPON RQST. DEPTG RY 4L.",
+            "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          }
+        ],
+        "AirportConditionDefinitions": [],
+        "AirportConditionsBeforeFreeText": false,
+        "NotamDefinitions": [
+          {
+            "Ordinal": 1,
+            "Text": "NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 2,
+            "Text": "GROUND METERING IN EFFECT",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 3,
+            "Text": "BA ADVZYS IN EFCT",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 4,
+            "Text": "WIND SHEAR ADVZYS IN EFCT",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 5,
+            "Text": "HAZD WX INFO FOR EWR AREA AVBL ATC FREQ BY RQST",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 6,
+            "Text": "LHASO IN EFCT",
+            "Enabled": false
+          }
+        ],
+        "NotamsBeforeFreeText": false,
+        "TransitionLevels": [],
+        "UseFaaFormat": true,
+        "UseExternalAtisGenerator": false,
+        "UseNotamPrefix": true,
+        "UseTransitionLevelPrefix": false,
+        "UseMetricUnits": false,
+        "UseSurfaceWindPrefix": false,
+        "UseVisibilitySuffix": false,
+        "UseDecimalTerminology": false
+      },
+      {
+        "Name": "Teterboro",
+        "Identifier": "KTEB",
+        "AtisType": 0,
+        "Contractions": [
+          {
+            "String": "TEB",
+            "Spoken": "TETERBORO"
+          },
+          {
+            "String": "RNAV",
+            "Spoken": "ARE-NAV"
+          }
+        ],
+        "AtisFrequency": 32850,
+        "ObservationTime": {
+          "Enabled": true,
+          "Time": 51
+        },
+        "MagneticVariation": {
+          "Enabled": true,
+          "MagneticDegrees": 10
+        },
+        "AtisVoice": {
+          "UseTextToSpeech": true,
+          "Voice": "Default"
+        },
+        "IDSEndpoint": null,
+        "Presets": [
+          {
+            "Name": "ILS 6 - DEP 1",
+            "AirportConditions": "ILS RY 6 APCH IN USE. LDG RY 6, DEPTG RY 1.",
+            "Notams": "ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.",
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          },
+          {
+            "Name": "ILS 19 - DEP 24",
+            "AirportConditions": "ILS RY 19 APCH INSUE. LDG RY 19, DEPTG RY 24.",
+            "Notams": "ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.",
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          },
+          {
+            "Name": "RNAV 24 - DEP 24 (RY 19 ILS OTS)",
+            "AirportConditions": "RNAV GPS RY 24 APCH IN USE. LDG AND DEPTG RY 24.",
+            "Notams": "ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.",
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          }
+        ],
+        "AirportConditionDefinitions": [],
+        "AirportConditionsBeforeFreeText": false,
+        "NotamDefinitions": [
+          {
+            "Ordinal": 1,
+            "Text": "NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 2,
+            "Text": "GROUND METERING IN EFCT",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 3,
+            "Text": "BA ADVZYS IN EFCT",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 4,
+            "Text": "WIND SHEAR ADVZYS IN EFCT",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 5,
+            "Text": "HAZD WX INFO FOR TEB AREA AVBL ATC FREQ BY RQST",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 6,
+            "Text": "ALL VFR DEPS CONTACT CLEARANCE DELIVERY ON 128.05",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 7,
+            "Text": "ALL POSITIONS COMBINED ON TWR FREQ 119.5",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 8,
+            "Text": "TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED OR ADVISE NO SID",
+            "Enabled": true
+          },
+          {
+            "Ordinal": 9,
+            "Text": "FOR CPDLC LOGON, USE KTEB",
+            "Enabled": false
+          }
+        ],
+        "NotamsBeforeFreeText": false,
+        "TransitionLevels": [],
+        "UseFaaFormat": true,
+        "UseExternalAtisGenerator": false,
+        "UseNotamPrefix": true,
+        "UseTransitionLevelPrefix": false,
+        "UseMetricUnits": false,
+        "UseSurfaceWindPrefix": false,
+        "UseVisibilitySuffix": false,
+        "UseDecimalTerminology": false
+      },
+      {
+        "Name": "Caldwell",
+        "Identifier": "KCDW",
+        "AtisType": 0,
+        "Contractions": [],
+        "AtisFrequency": 35500,
+        "ObservationTime": {
+          "Enabled": true,
+          "Time": 53
+        },
+        "MagneticVariation": {
+          "Enabled": true,
+          "MagneticDegrees": 10
+        },
+        "AtisVoice": {
+          "UseTextToSpeech": false,
+          "Voice": "Default"
+        },
+        "IDSEndpoint": null,
+        "Presets": [
+          {
+            "Name": "PRESS \"ARPT COND\" TO START",
+            "AirportConditions": null,
+            "Notams": null,
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          }
+        ],
+        "AirportConditionDefinitions": [
+          {
+            "Ordinal": 1,
+            "Text": "======= Step 1: Select Approach(es) In Use =======",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 2,
+            "Text": "RNAV RY 4 APCH IN USE",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 3,
+            "Text": "RNAV RY 10 APCH IN USE",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 4,
+            "Text": "RNAV RY 22 APCH IN USE",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 5,
+            "Text": "LOC RY 22 APCH IN USE",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 6,
+            "Text": "==== Step 2: Select Landing/Departing Runways ====",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 7,
+            "Text": "LDG AND DEPTG RY 4",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 8,
+            "Text": "LDG AND DEPTG RY 10",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 9,
+            "Text": "LDG AND DEPTG RY 22",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 10,
+            "Text": "LDG AND DEPTG RY 28",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 11,
+            "Text": "=== Step 3: Select Additional Info (Not Req'd) ===",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 12,
+            "Text": "VIS APCH AVBL ON RQST.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 13,
+            "Text": "RNAV APCH AVBL ON RQST.",
+            "Enabled": false
+          }
+        ],
+        "AirportConditionsBeforeFreeText": false,
+        "NotamDefinitions": [
+          {
+            "Ordinal": 1,
+            "Text": "NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 2,
+            "Text": "GROUND METERING IN EFFECT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 3,
+            "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFCT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 4,
+            "Text": "BA ADVZYS IN EFCT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 5,
+            "Text": "WIND SHEAR ADVZYS IN EFCT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 6,
+            "Text": "HAZD WX INFO FOR CDW AREA AVBL ATC FREQ BY RQST.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 7,
+            "Text": "VFR ACFT SAY DIRECTION OF FLIGHT.",
+            "Enabled": false
+          }
+        ],
+        "NotamsBeforeFreeText": false,
+        "TransitionLevels": [],
+        "UseFaaFormat": true,
+        "UseExternalAtisGenerator": false,
+        "UseNotamPrefix": true,
+        "UseTransitionLevelPrefix": false,
+        "UseMetricUnits": false,
+        "UseSurfaceWindPrefix": false,
+        "UseVisibilitySuffix": false,
+        "UseDecimalTerminology": false
+      },
+      {
+        "Name": "Morristown",
+        "Identifier": "KMMU",
+        "AtisType": 0,
+        "Contractions": [],
+        "AtisFrequency": 24250,
+        "ObservationTime": {
+          "Enabled": true,
+          "Time": 50
+        },
+        "MagneticVariation": {
+          "Enabled": true,
+          "MagneticDegrees": 10
+        },
+        "AtisVoice": {
+          "UseTextToSpeech": false,
+          "Voice": "Default"
+        },
+        "IDSEndpoint": "",
+        "Presets": [
+          {
+            "Name": "PRESS \"ARPT COND\" TO START",
+            "AirportConditions": null,
+            "Notams": null,
+            "ArbitraryText": null,
+            "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+            "ExternalGenerator": {
+              "Url": null,
+              "Arrival": null,
+              "Departure": null,
+              "Approaches": null,
+              "Remarks": null
+            }
+          }
+        ],
+        "AirportConditionDefinitions": [
+          {
+            "Ordinal": 1,
+            "Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 2,
+            "Text": "ILS RUNWAY 23 APPROACH IN USE.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 3,
+            "Text": "RNAV Z RUNWAY 23 APPROACH IN USE.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 4,
+            "Text": "RNAV Y RUNWAY 23 APPROACH IN USE.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 5,
+            "Text": "VISUAL RUNWAY 23 APPROACH IN USE.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 6,
+            "Text": "RNAV RUNWAY 5 APPROACH IN USE.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 7,
+            "Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 8,
+            "Text": "LANDING AND DEPARTING RUNWAY 23.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 9,
+            "Text": "LANDING AND DEPARTING RUNWAY 5.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 10,
+            "Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 11,
+            "Text": "VISUAL APCH AVAILABLE ON REQUEST.",
+            "Enabled": false
+          }
+        ],
+        "AirportConditionsBeforeFreeText": false,
+        "NotamDefinitions": [
+          {
+            "Ordinal": 1,
+            "Text": "NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 2,
+            "Text": "GROUND METERING IN EFFECT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 3,
+            "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 4,
+            "Text": "BA ADVZYS IN EFCT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 5,
+            "Text": "WIND SHEAR ADVZYS IN EFCT.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 6,
+            "Text": "HAZD WX INFO FOR MMU AREA AVBL ATC FREQ BY RQST.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 7,
+            "Text": "VFR ACFT SAY DIRECTION OF FLIGHT.",
+            "Enabled": false
+          }
+        ],
+        "NotamsBeforeFreeText": false,
+        "TransitionLevels": [],
+        "UseFaaFormat": true,
+        "UseExternalAtisGenerator": false,
+        "UseNotamPrefix": true,
+        "UseTransitionLevelPrefix": false,
+        "UseMetricUnits": false,
+        "UseSurfaceWindPrefix": false,
+        "UseVisibilitySuffix": false,
+        "UseDecimalTerminology": false
+      }
+    ]
+  }
