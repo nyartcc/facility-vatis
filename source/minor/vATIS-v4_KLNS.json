@@ -1,0 +1,156 @@
+{
+    "Name": "Lancaster",
+    "Composites": [
+        {
+            "Name": "Lancaster",
+            "Identifier": "KLNS",
+            "AtisType": 0,
+            "Contractions": [],
+            "AtisFrequency": 25675,
+            "ObservationTime": {
+                "Enabled": true,
+                "Time": 53
+            },
+            "MagneticVariation": {
+                "Enabled": true,
+                "MagneticDegrees": 10
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": false,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "",
+            "Presets": [
+                {
+                    "Name": "PRESS \"ARPT COND\" TO START",
+                    "AirportConditions": "",
+                    "Notams": "",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                }
+            ],
+            "AirportConditionDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "VISUAL APPROACHES IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "ILS APCH RWY 8 IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "RNAV APCH RWY 13 IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "RNAV APCH RWY 26 IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 6,
+                    "Text": "RNAV APCH RWY 31 IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 7,
+                    "Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 8,
+                    "Text": "LANDING AND DEPARTING RWY 8.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 9,
+                    "Text": "LANDING AND DEPARTING RWY 13.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 10,
+                    "Text": "LANDING AND DEPARTING RWY 26.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 11,
+                    "Text": "LANDING AND DEPARTING RWY 31.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 12,
+                    "Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 13,
+                    "Text": "VISUAL APCH AVAILABLE ON REQUEST.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 14,
+                    "Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 15,
+                    "Text": "RNAV APCH AVAILABLE ON REQUEST.",
+                    "Enabled": false
+                }
+            ],
+            "AirportConditionsBeforeFreeText": false,
+            "NotamDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "BA ADVZYS IN EFCT.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "WIND SHEAR ADVZYS IN EFCT.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "HAZD WX INFO FOR LNS AREA AVBL ATC FREQ BY RQST.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "VFR ACFT SAY DIRECTION OF FLIGHT.",
+                    "Enabled": false
+                }
+            ],
+            "NotamsBeforeFreeText": false,
+            "TransitionLevels": [],
+            "UseFaaFormat": true,
+            "UseExternalAtisGenerator": false,
+            "UseNotamPrefix": true,
+            "UseTransitionLevelPrefix": false,
+            "UseMetricUnits": false,
+            "UseSurfaceWindPrefix": false,
+            "UseVisibilitySuffix": false,
+            "UseDecimalTerminology": false
+        }
+    ]
+}

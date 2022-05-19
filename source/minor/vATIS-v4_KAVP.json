@@ -1,0 +1,136 @@
+{
+    "Name": "Scranton",
+    "Composites": [
+        {
+            "Name": "Scranton",
+            "Identifier": "KAVP",
+            "AtisType": 0,
+            "Contractions": [],
+            "AtisFrequency": 20275,
+            "ObservationTime": {
+                "Enabled": true,
+                "Time": 54
+            },
+            "MagneticVariation": {
+                "Enabled": true,
+                "MagneticDegrees": 10
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": false,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "",
+            "Presets": [
+                {
+                    "Name": "PRESS \"ARPT COND\" TO START",
+                    "AirportConditions": null,
+                    "Notams": null,
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                }
+            ],
+            "AirportConditionDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "ILS OR LOC RUNWAY 4 APPROACH IN USE",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "RNAV RUNWAY 4 APPROACH IN USE",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "ILS OR LOC RUNWAY 22 APPROACH IN USE",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "RNAV RUNWAY 22 APPROACH IN USE",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 6,
+                    "Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 7,
+                    "Text": "LANDING AND DEPARTING RUNWAY 4",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 8,
+                    "Text": "LANDING AND DEPARTING RUNWAY 22",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 9,
+                    "Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 10,
+                    "Text": "RNAV APPROACH AVAILABLE ON REQUEST",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 11,
+                    "Text": "VISUAL APPROACH AVAILABLE ON REQUEST",
+                    "Enabled": false
+                }
+            ],
+            "AirportConditionsBeforeFreeText": false,
+            "NotamDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "BA ADVZYS IN EFCT.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "WIND SHEAR ADVZYS IN EFCT.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "HAZD WX INFO FOR AVP AREA AVBL ATC FREQ BY RQST.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "VFR ACFT SAY DIRECTION OF FLIGHT.",
+                    "Enabled": false
+                }
+            ],
+            "NotamsBeforeFreeText": false,
+            "TransitionLevels": [],
+            "UseFaaFormat": true,
+            "UseExternalAtisGenerator": false,
+            "UseNotamPrefix": true,
+            "UseTransitionLevelPrefix": false,
+            "UseMetricUnits": false,
+            "UseSurfaceWindPrefix": false,
+            "UseVisibilitySuffix": false,
+            "UseDecimalTerminology": false
+        }
+    ]
+}
