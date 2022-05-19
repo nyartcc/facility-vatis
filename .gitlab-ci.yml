@@ -1,4 +1,3 @@
-# TODO: run combination_tool.js to generate combined profiles
 workflow:
   rules:
     - if: $CI_COMMIT_TAG
@@ -7,26 +6,24 @@ stages:
   - "release"
 generate_archives:
   stage: generate_archives
-  image: alpine:3
+  image: node:18.2.0-alpine3.14
   before_script:
     - echo $CI_JOB_ID
     - echo GP_JOB_ID=$CI_JOB_ID >> generate_archives.env
     - apk add --no-cache zip
+    - mkdir build && mkdir build/minor
   script:
-    #- node combination_tool.js
+    - node combination_tool.js
     - echo 'bundling N90 and PHL profiles...'
-    - zip -j vATIS-v4_N90-PHL_${CI_COMMIT_TAG:1}.zip source/*.json
-    #- echo 'bundling center profiles...'
-    #- zip -j vATIS-v4_ZNY_${CI_COMMIT_TAG:1}.zip source/center/*.json
-    #- echo 'bundling minor profiles...'
-    #- zip -j vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip source/minor/*.json
+    - zip -j vATIS-v4_N90-PHL_${CI_COMMIT_TAG:1}.zip build/*.json
+    - echo 'bundling minor profiles...'
+    - zip -j vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip build/minor/*.json
   artifacts:
     untracked: true
     expire_in: 180 days
     paths:
       - vATIS-v4_N90-PHL_${CI_COMMIT_TAG:1}.zip
-      #- vATIS-v4_ZNY_${CI_COMMIT_TAG:1}.zip
-      #- vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip
+      - vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip
     reports:
       dotenv: generate_archives.env
 release:
@@ -42,9 +39,7 @@ release:
     description: 'created using the release-cli'
     assets:
       links:
-        - name: 'vATIS ${CI_COMMIT_BRANCH}: N90 and PHL profiles'
+        - name: 'vATIS ${CI_COMMIT_BRANCH}: N90 and PHL profile package'
           url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_N90-PHL_${CI_COMMIT_TAG:1}.zip'
-        #- name: 'vATIS ${CI_COMMIT_BRANCH}: Center profiles by area'
-        #  url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_ZNY_${CI_COMMIT_TAG:1}.zip'
-        #- name: 'vATIS ${CI_COMMIT_BRANCH}: Minor profiles by airport'
-        #  url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip'
+        - name: 'vATIS ${CI_COMMIT_BRANCH}: Minor profile package'
+          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip'
