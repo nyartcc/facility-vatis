@@ -1,0 +1,844 @@
+{
+    "Name": "N90 Combined",
+    "Composites": [
+        {
+            "Name": "LaGuardia",
+            "Identifier": "KLGA",
+            "AtisType": 0,
+            "Contractions": [
+                {
+                    "String": "LGA",
+                    "Spoken": "LAGUARDIA"
+                },
+                {
+                    "String": "RNAV",
+                    "Spoken": "ARE-NAV"
+                }
+            ],
+            "AtisFrequency": 27050,
+            "ObservationTime": {
+                "Enabled": true,
+                "Time": 51
+            },
+            "MagneticVariation": {
+                "Enabled": true,
+                "MagneticDegrees": 10
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "",
+            "Presets": [
+                {
+                    "Name": "ILS 4 - DEP 13",
+                    "AirportConditions": "ILS RY 4 APCH IN USE. DEPTG RY 13.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 4 - DEP 31",
+                    "AirportConditions": "ILS RY 4 APCH IN USE. DEPTG RY 31.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 4 - DEP 4",
+                    "AirportConditions": "ILS RY 4 APCH IN USE. DEPTG RY 4.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 22 - DEP 13",
+                    "AirportConditions": "ILS RY 22 APCH IN USE. DEPTG RY 13.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 22 - DEP 31",
+                    "AirportConditions": "ILS RY 22 APCH IN USE. DEPTG RY 31.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 22 - DEP 22",
+                    "AirportConditions": "ILS RY 22 APCH IN USE. DEPTG RY 22.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 22 CIR 13 - DEP 13",
+                    "AirportConditions": "APCH IN USE ILS RY 22 CIR TO LAND RY 13. ILS RY 22 APCH AVBL UPON RQST. DEPTG RY 13.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "PARK 31 - DEP 4",
+                    "AirportConditions": "PARK VIS RY 31 APCH IN USE. ILS RY 4 APCH AVBL UPON RQST. DEPTG RY 4.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "PARK 31 - DEP 31",
+                    "AirportConditions": "PARK VIS RY 31 APCH IN USE. ILS RY 4 APCH AVBL UPON RQST. DEPTG RY 31.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "LOC 31 - DEP 4",
+                    "AirportConditions": "RNAV *X RY 31 APCH IN USE. DEPTG RY 4.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "LOC 31 - DEP 31",
+                    "AirportConditions": "LOC RY 31 APCH IN USE. DEPTG RY 31.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 13 - DEP 4",
+                    "AirportConditions": "ILS RY 13 APCH IN USE. DEPTG RY 4.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "AirportConditionsBeforeFreeText": false,
+            "NotamDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "GROUND METERING IN EFFECT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "BA ADVZYS IN EFCT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "WIND SHEAR ADVZYS IN EFCT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "HAZD WX INFO FOR LGA AREA AVBL ATC FREQ BY RQST",
+                    "Enabled": false
+                }
+            ],
+            "NotamsBeforeFreeText": false,
+            "TransitionLevels": [],
+            "UseFaaFormat": true,
+            "UseExternalAtisGenerator": false,
+            "UseNotamPrefix": true,
+            "UseTransitionLevelPrefix": false,
+            "UseMetricUnits": false,
+            "UseSurfaceWindPrefix": false,
+            "UseVisibilitySuffix": false,
+            "UseDecimalTerminology": false
+        },
+        {
+            "Name": "Kennedy",
+            "Identifier": "KJFK",
+            "AtisType": 0,
+            "Contractions": [
+                {
+                    "String": "JFK",
+                    "Spoken": "KENNEDY"
+                },
+                {
+                    "String": "RNAV",
+                    "Spoken": "ARE-NAV"
+                },
+                {
+                    "String": "SWAP",
+                    "Spoken": "SEVERE WEATHER AVOIDANCE PLAN"
+                },
+                {
+                    "String": "VOR",
+                    "Spoken": "VEE-OH-ARE"
+                },
+                {
+                    "String": "NY",
+                    "Spoken": "NEW YORK"
+                },
+                {
+                    "String": "INT",
+                    "Spoken": "INTERSECTION"
+                }
+            ],
+            "AtisFrequency": 28720,
+            "ObservationTime": {
+                "Enabled": true,
+                "Time": 51
+            },
+            "MagneticVariation": {
+                "Enabled": true,
+                "MagneticDegrees": 10
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "",
+            "Presets": [
+                {
+                    "Name": "ILS 22L - DEP 22R",
+                    "AirportConditions": "APCH IN USE ILS RY 22L. DEPTG RY 22R.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 22s - DEP 22R",
+                    "AirportConditions": "APCH IN USE ILS RY 22L, ILS 22R. DEPTG RY 22R.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "RNAV 22L - DEP 22R",
+                    "AirportConditions": "APCH IN USE RNAV GPS *X RY 22L. DEPTG RY 22R.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 31R VIS 31L - DEP 31L",
+                    "AirportConditions": "APCH IN USE ILS RY 31R, VIS RY 31L. DEPTG RY 31L.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 31s - DEP 31L",
+                    "AirportConditions": "APCH IN USE ILS RY 31R, ILS RY 31L. DEPTG RY 31L.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 4R - DEP 4L",
+                    "AirportConditions": "APCH IN USE ILS RY 4R. DEPTG RY 4L.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 4s - DEP 4L",
+                    "AirportConditions": "APCH IN USE ILS RY 4R, ILS 4L. DEPTG RY 4L.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 13L - DEP 13R",
+                    "AirportConditions": "APCH IN USE ILS RY 13L. DEPTG RY 13R.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "RNAV 13L - DEP 13R",
+                    "AirportConditions": "APCH IN USE RNAV GPS *Z RY 13L. DEPTG RY 13R.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "RNAV 13L/22L - DEP 13R",
+                    "AirportConditions": "APCH IN USE RNAV GPS *Z RY 13L, RNAV GPS *X RY 22L. DEPTG RY 13R. CONVERGING RY OPERATIONS IN USE.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 22s - DEP 22R, SW DEP 31L@KE",
+                    "AirportConditions": "APCH IN USE ILS RY 22L, ILS RY 22R. DEPTG RY 22R, ACFT FILED OVER +RBV, DIXIE, +ARD, OR WHITE EXP RY 31L FROM INT *KE FOR DEP.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 22s - DEP 22R/31L@KE",
+                    "AirportConditions": "APCH IN USE ILS RY 22L, ILS RY 22R. DEPTG RY 22R, RY 31L INT *KE 10900 FT AVBL.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 4s - DEP 4L, SW DEP 31L@KE",
+                    "AirportConditions": "APCH IN USE ILS RY 4L, ILS RY 4R. DEPTG RY 4L, ACFT FILED OVER +RBV, DIXIE, +ARD, OR WHITE EXP RY 31L FROM INT *KE FOR DEP.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 4s - DEP 4L/31L@KE",
+                    "AirportConditions": "APCH IN USE ILS RY 4L, ILS RY 4R. DEPTG RY 4L, RY 31L INT *KE 10900 FT AVBL.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS. READBACK ALL RWY HOLD SHORT INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "AirportConditionsBeforeFreeText": false,
+            "NotamDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "GROUND METERING IN EFFECT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "BA ADVZYS IN EFCT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "LOW LEVEL WIND SHEAR ADVZYS IN EFFECT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "HAZD WX INFO FOR NY METRO AREA AVBL ATC FREQ BY RQST",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "SWAP IN EFFECT, EXPECT REROUTES",
+                    "Enabled": false
+                }
+            ],
+            "NotamsBeforeFreeText": false,
+            "TransitionLevels": [],
+            "UseFaaFormat": true,
+            "UseExternalAtisGenerator": false,
+            "UseNotamPrefix": true,
+            "UseTransitionLevelPrefix": true,
+            "UseMetricUnits": false,
+            "UseSurfaceWindPrefix": false,
+            "UseVisibilitySuffix": false,
+            "UseDecimalTerminology": false
+        },
+        {
+            "Name": "Long Island",
+            "Identifier": "KISP",
+            "AtisType": 0,
+            "Contractions": [
+                {
+                    "String": "ISP",
+                    "Spoken": "LONG ISLAND"
+                },
+                {
+                    "String": "RNAV",
+                    "Spoken": "ARE-NAV"
+                }
+            ],
+            "AtisFrequency": 20725,
+            "ObservationTime": {
+                "Enabled": true,
+                "Time": 56
+            },
+            "MagneticVariation": {
+                "Enabled": true,
+                "MagneticDegrees": 10
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": false,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "",
+            "Presets": [
+                {
+                    "Name": "PRESS \"ARPT COND\" TO START",
+                    "AirportConditions": "",
+                    "Notams": null,
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                }
+            ],
+            "AirportConditionDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "VIS APCHS IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "ILS APCH RWY 6 IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "ILS RWY 24 APCH IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "RNAV APCH RWY 15R IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 6,
+                    "Text": "RNAV APCH RWY 33L IN USE.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 7,
+                    "Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 8,
+                    "Text": "LANDING AND DEPARTING RWY 6.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 9,
+                    "Text": "LDG AND DEPTG RY 24.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 10,
+                    "Text": "LANDING RWY 15R. DEPARTING RWYS 15R AND 15L.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 11,
+                    "Text": "LANDING RWY 33L. DEPARTING RWYS 33L AND 33R.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 12,
+                    "Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 13,
+                    "Text": "VISUAL APCH AVAILABLE ON REQUEST.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 14,
+                    "Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 15,
+                    "Text": "RNAV APCH AVBL ON REQUEST.",
+                    "Enabled": false
+                }
+            ],
+            "AirportConditionsBeforeFreeText": false,
+            "NotamDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "BA ADVZYS IN EFCT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "WIND SHEAR ADVZYS IN EFCT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "HAZD WX INFO FOR ISP AREA AVBL ATC FREQ BY RQST",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "LAHSO IN EFCT",
+                    "Enabled": false
+                }
+            ],
+            "NotamsBeforeFreeText": false,
+            "TransitionLevels": [],
+            "UseFaaFormat": true,
+            "UseExternalAtisGenerator": false,
+            "UseNotamPrefix": true,
+            "UseTransitionLevelPrefix": false,
+            "UseMetricUnits": false,
+            "UseSurfaceWindPrefix": false,
+            "UseVisibilitySuffix": false,
+            "UseDecimalTerminology": false
+        },
+        {
+            "Name": "Newark",
+            "Identifier": "KEWR",
+            "AtisType": 0,
+            "Contractions": [
+                {
+                    "String": "EWR",
+                    "Spoken": "NEWARK"
+                },
+                {
+                    "String": "RNAV",
+                    "Spoken": "ARE-NAV"
+                }
+            ],
+            "AtisFrequency": 34825,
+            "ObservationTime": {
+                "Enabled": true,
+                "Time": 51
+            },
+            "MagneticVariation": {
+                "Enabled": true,
+                "MagneticDegrees": 10
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": null,
+            "Presets": [
+                {
+                    "Name": "ILS 22R - DEP 22L@W",
+                    "AirportConditions": "ILS RY 22L APCH IN USE. DEPTG RY 22R FROM INT *W, *10,150 FT TODA.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS 4R - DEP 4L",
+                    "AirportConditions": "ILS RY 4R APCH IN USE. GLS APPROACH AVAILABLE UPON REQUEST. DEPTG RY 4L.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "STADIUM 29 - DEP 22R@Y",
+                    "AirportConditions": "STADIUM VIS RY 29 APCH IN USE. ILS RY 22L APCH AVBL UPON RQST. DEPTG RY 22R FROM INT *Y, *9,850 FT TODA.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "BRIDGE 29 - DEP 4L",
+                    "AirportConditions": "BRIDGE VIS RY 29 APCH IN USE. ILS RY 4R APCH AVBL UPON RQST. DEPTG RY 4L.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "RNAV Y 29 - DEP 22R@Y",
+                    "AirportConditions": "RNAV *Y RY 29 APCH IN USE. ILS RY 22L APCH AVBL UPON RQST. DEPTG RY 22R FROM INT *Y, *9,850 FT TODA.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "RNAV Z 29 - DEP 4L",
+                    "AirportConditions": "RNAV *Z RY 29 APCH IN USE. ILS RY 4R APCH AVBL UPON RQST. DEPTG RY 4L.",
+                    "Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "AirportConditionsBeforeFreeText": false,
+            "NotamDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "GROUND METERING IN EFFECT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "BA ADVZYS IN EFCT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "WIND SHEAR ADVZYS IN EFCT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "HAZD WX INFO FOR EWR AREA AVBL ATC FREQ BY RQST",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 6,
+                    "Text": "LHASO IN EFCT",
+                    "Enabled": false
+                }
+            ],
+            "NotamsBeforeFreeText": false,
+            "TransitionLevels": [],
+            "UseFaaFormat": true,
+            "UseExternalAtisGenerator": false,
+            "UseNotamPrefix": true,
+            "UseTransitionLevelPrefix": false,
+            "UseMetricUnits": false,
+            "UseSurfaceWindPrefix": false,
+            "UseVisibilitySuffix": false,
+            "UseDecimalTerminology": false
+        }
+    ]
+}
