@@ -1,105 +1,105 @@
 {
-    "Name": "Bermuda",
-    "Composites": [
-        {
-            "Name": "Bermuda",
-            "Identifier": "TXKF",
-            "AtisType": 0,
-            "Contractions": [
-                {
-                    "String": "RWY",
-                    "Spoken": "RUNWAY"
-                },
-                {
-                    "String": "Z",
-                    "Spoken": "ZULU"
-                }
-            ],
-            "AtisFrequency": 19600,
-            "ObservationTime": {
-                "Enabled": true,
-                "Time": 55
-            },
-            "MagneticVariation": {
-                "Enabled": true,
-                "MagneticDegrees": 15
-            },
-            "AtisVoice": {
-                "UseTextToSpeech": true,
-                "Voice": "Default"
-            },
-            "IDSEndpoint": "",
-            "Presets": [
-                {
-                    "Name": "RWY 12 CLEAR AND DRY",
-                    "AirportConditions": "EXPECT ALL INSTRUMENT APPROACHES RWY 12.",
-                    "Notams": "RWY REPORT. RWY 12. RWY CLEAR AND DRY. TAXIWAY CLEAR AND DRY.",
-                    "ArbitraryText": null,
-                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. [FULL_WX_STRING]. [NOTAMS]. END OF INFORMATION [ATIS_CODE].",
-                    "ExternalGenerator": {
-                        "Url": null,
-                        "Arrival": null,
-                        "Departure": null,
-                        "Approaches": null,
-                        "Remarks": null
-                    }
-                },
-                {
-                    "Name": "RWY 30 CLEAR AND DRY",
-                    "AirportConditions": "EXPECT ALL INSTRUMENT APPROACHES RWY 30.",
-                    "Notams": "RWY REPORT. RWY 30. RWY CLEAR AND DRY. TAXIWAY CLEAR AND DRY.",
-                    "ArbitraryText": null,
-                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. [FULL_WX_STRING]. [NOTAMS]. END OF INFORMATION [ATIS_CODE].",
-                    "ExternalGenerator": {
-                        "Url": null,
-                        "Arrival": null,
-                        "Departure": null,
-                        "Approaches": null,
-                        "Remarks": null
-                    }
-                },
-                {
-                    "Name": "RWY 12 WET",
-                    "AirportConditions": "EXPECT ALL INSTRUMENT APPROACHES RWY 12.",
-                    "Notams": "RWY REPORT. RWY 12. RWY WET. TAXIWAY WET.",
-                    "ArbitraryText": null,
-                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. [FULL_WX_STRING]. [NOTAMS]. END OF INFORMATION [ATIS_CODE].",
-                    "ExternalGenerator": {
-                        "Url": null,
-                        "Arrival": null,
-                        "Departure": null,
-                        "Approaches": null,
-                        "Remarks": null
-                    }
-                },
-                {
-                    "Name": "RWY 30 WET",
-                    "AirportConditions": "EXPECT ALL INSTRUMENT APPROACHES RWY 30.",
-                    "Notams": "RWY REPORT. RWY 30. RWY WET.",
-                    "ArbitraryText": null,
-                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. [FULL_WX_STRING]. [NOTAMS]. END OF INFORMATION [ATIS_CODE].",
-                    "ExternalGenerator": {
-                        "Url": null,
-                        "Arrival": null,
-                        "Departure": null,
-                        "Approaches": null,
-                        "Remarks": null
-                    }
-                }
-            ],
-            "AirportConditionDefinitions": [],
-            "AirportConditionsBeforeFreeText": false,
-            "NotamDefinitions": [],
-            "NotamsBeforeFreeText": false,
-            "TransitionLevels": [],
-            "UseFaaFormat": true,
-            "UseExternalAtisGenerator": false,
-            "UseNotamPrefix": true,
-            "UseTransitionLevelPrefix": false,
-            "UseMetricUnits": false,
-            "UseSurfaceWindPrefix": false,
-            "UseVisibilitySuffix": false,
-            "UseDecimalTerminology": false
-        }
-    ]
+	"Name": "Bermuda",
+	"Composites": [
+		{
+			"Name": "Bermuda",
+			"Identifier": "TXKF",
+			"AtisType": 0,
+			"Contractions": [
+				{
+					"String": "RWY",
+					"Spoken": "RUNWAY"
+				},
+				{
+					"String": "Z",
+					"Spoken": "ZULU"
+				}
+			],
+			"AtisFrequency": 19600,
+			"ObservationTime": {
+				"Enabled": true,
+				"Time": 55
+			},
+			"MagneticVariation": {
+				"Enabled": true,
+				"MagneticDegrees": 15
+			},
+			"AtisVoice": {
+				"UseTextToSpeech": true,
+				"Voice": "Default"
+			},
+			"IDSEndpoint": "",
+			"Presets": [
+				{
+					"Name": "RWY 12 CLEAR AND DRY",
+					"AirportConditions": "EXPECT ALL INSTRUMENT APPROACHES RWY 12.",
+					"Notams": "RWY REPORT. RWY 12. RWY CLEAR AND DRY. TAXIWAY CLEAR AND DRY.",
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. [FULL_WX_STRING]. [NOTAMS]. END OF INFORMATION [ATIS_CODE].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				},
+				{
+					"Name": "RWY 30 CLEAR AND DRY",
+					"AirportConditions": "EXPECT ALL INSTRUMENT APPROACHES RWY 30.",
+					"Notams": "RWY REPORT. RWY 30. RWY CLEAR AND DRY. TAXIWAY CLEAR AND DRY.",
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. [FULL_WX_STRING]. [NOTAMS]. END OF INFORMATION [ATIS_CODE].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				},
+				{
+					"Name": "RWY 12 WET",
+					"AirportConditions": "EXPECT ALL INSTRUMENT APPROACHES RWY 12.",
+					"Notams": "RWY REPORT. RWY 12. RWY WET. TAXIWAY WET.",
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. [FULL_WX_STRING]. [NOTAMS]. END OF INFORMATION [ATIS_CODE].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				},
+				{
+					"Name": "RWY 30 WET",
+					"AirportConditions": "EXPECT ALL INSTRUMENT APPROACHES RWY 30.",
+					"Notams": "RWY REPORT. RWY 30. RWY WET.",
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. [FULL_WX_STRING]. [NOTAMS]. END OF INFORMATION [ATIS_CODE].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				}
+			],
+			"AirportConditionDefinitions": [],
+			"AirportConditionsBeforeFreeText": false,
+			"NotamDefinitions": [],
+			"NotamsBeforeFreeText": false,
+			"TransitionLevels": [],
+			"UseFaaFormat": true,
+			"UseExternalAtisGenerator": false,
+			"UseNotamPrefix": true,
+			"UseTransitionLevelPrefix": false,
+			"UseMetricUnits": false,
+			"UseSurfaceWindPrefix": false,
+			"UseVisibilitySuffix": false,
+			"UseDecimalTerminology": false
+		}
+	]
 }

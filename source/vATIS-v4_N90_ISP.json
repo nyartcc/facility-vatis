@@ -1,620 +1,620 @@
 {
-    "Name": "N90 Islip",
-    "Composites": [
-      {
-        "Name": "Long Island",
-        "Identifier": "KISP",
-        "AtisType": 0,
-        "Contractions": [
-          {
-            "String": "ISP",
-            "Spoken": "LONG ISLAND"
-          },
-          {
-            "String": "RNAV",
-            "Spoken": "ARE-NAV"
-          }
-        ],
-        "AtisFrequency": 20725,
-        "ObservationTime": {
-          "Enabled": true,
-          "Time": 56
-        },
-        "MagneticVariation": {
-          "Enabled": true,
-          "MagneticDegrees": 10
-        },
-        "AtisVoice": {
-          "UseTextToSpeech": false,
-          "Voice": "Default"
-        },
-        "IDSEndpoint": "",
-        "Presets": [
-          {
-            "Name": "PRESS \"ARPT COND\" TO START",
-            "AirportConditions": "",
-            "Notams": null,
-            "ArbitraryText": null,
-            "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
-            "ExternalGenerator": {
-              "Url": null,
-              "Arrival": null,
-              "Departure": null,
-              "Approaches": null,
-              "Remarks": null
-            }
-          }
-        ],
-        "AirportConditionDefinitions": [
-          {
-            "Ordinal": 1,
-            "Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 2,
-            "Text": "VIS APCHS IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 3,
-            "Text": "ILS APCH RWY 6 IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 4,
-            "Text": "ILS RWY 24 APCH IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 5,
-            "Text": "RNAV APCH RWY 15R IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 6,
-            "Text": "RNAV APCH RWY 33L IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 7,
-            "Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 8,
-            "Text": "LANDING AND DEPARTING RWY 6.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 9,
-            "Text": "LDG AND DEPTG RY 24.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 10,
-            "Text": "LANDING RWY 15R. DEPARTING RWYS 15R AND 15L.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 11,
-            "Text": "LANDING RWY 33L. DEPARTING RWYS 33L AND 33R.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 12,
-            "Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 13,
-            "Text": "VISUAL APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 14,
-            "Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 15,
-            "Text": "RNAV APCH AVBL ON REQUEST.",
-            "Enabled": false
-          }
-        ],
-        "AirportConditionsBeforeFreeText": false,
-        "NotamDefinitions": [
-          {
-            "Ordinal": 1,
-            "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 2,
-            "Text": "BA ADVZYS IN EFCT",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 3,
-            "Text": "WIND SHEAR ADVZYS IN EFCT",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 4,
-            "Text": "HAZD WX INFO FOR ISP AREA AVBL ATC FREQ BY RQST",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 5,
-            "Text": "LAHSO IN EFCT",
-            "Enabled": false
-          }
-        ],
-        "NotamsBeforeFreeText": false,
-        "TransitionLevels": [],
-        "UseFaaFormat": true,
-        "UseExternalAtisGenerator": false,
-        "UseNotamPrefix": true,
-        "UseTransitionLevelPrefix": false,
-        "UseMetricUnits": false,
-        "UseSurfaceWindPrefix": false,
-        "UseVisibilitySuffix": false,
-        "UseDecimalTerminology": false
-      },
-      {
-        "Name": "Bridgeport",
-        "Identifier": "KBDR",
-        "AtisType": 0,
-        "Contractions": [
-          {
-            "String": "BDR",
-            "Spoken": "BRIDGEPORT"
-          },
-          {
-            "String": "RNAV",
-            "Spoken": "ARE-NAV"
-          }
-        ],
-        "AtisFrequency": 19150,
-        "ObservationTime": {
-          "Enabled": true,
-          "Time": 52
-        },
-        "MagneticVariation": {
-          "Enabled": true,
-          "MagneticDegrees": 10
-        },
-        "AtisVoice": {
-          "UseTextToSpeech": false,
-          "Voice": "US Male"
-        },
-        "IDSEndpoint": "",
-        "Presets": [
-          {
-            "Name": "PRESS \"ARPT COND\" TO START",
-            "AirportConditions": null,
-            "Notams": null,
-            "ArbitraryText": null,
-            "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
-            "ExternalGenerator": {
-              "Url": null,
-              "Arrival": null,
-              "Departure": null,
-              "Approaches": null,
-              "Remarks": null
-            }
-          }
-        ],
-        "AirportConditionDefinitions": [
-          {
-            "Ordinal": 1,
-            "Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 2,
-            "Text": "VISUAL APPROACHES IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 3,
-            "Text": "ILS APCH RWY 6 IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 4,
-            "Text": "RNAV APCH RWY 24 IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 5,
-            "Text": "RNAV APCH RWY 29 IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 6,
-            "Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 7,
-            "Text": "LANDING AND DEPARTING RWY 6.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 8,
-            "Text": "LANDING AND DEPARTING RWY 11.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 9,
-            "Text": "LANDING AND DEPARTING RWY 24.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 10,
-            "Text": "LANDING AND DEPARTING RWY 29.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 11,
-            "Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 12,
-            "Text": "RWY 6 AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 13,
-            "Text": "RWY 24 AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 14,
-            "Text": "VISUAL APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 15,
-            "Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 16,
-            "Text": "RNAV APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          }
-        ],
-        "AirportConditionsBeforeFreeText": false,
-        "NotamDefinitions": [
-          {
-            "Ordinal": 1,
-            "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 2,
-            "Text": "BA ADVZYS IN EFCT.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 3,
-            "Text": "WIND SHEAR ADVZYS IN EFCT.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 4,
-            "Text": "HAZD WX INFO FOR BDR AREA AVBL ATC FREQ BY RQST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 5,
-            "Text": "LAHSO IN EFCT.",
-            "Enabled": false
-          }
-        ],
-        "NotamsBeforeFreeText": false,
-        "TransitionLevels": [],
-        "UseFaaFormat": true,
-        "UseExternalAtisGenerator": false,
-        "UseNotamPrefix": true,
-        "UseTransitionLevelPrefix": false,
-        "UseMetricUnits": false,
-        "UseSurfaceWindPrefix": false,
-        "UseVisibilitySuffix": false,
-        "UseDecimalTerminology": false
-      },
-      {
-        "Name": "New Haven",
-        "Identifier": "KHVN",
-        "AtisType": 0,
-        "Contractions": [
-          {
-            "String": "HVN",
-            "Spoken": "NEW HAVEN"
-          },
-          {
-            "String": "RNAV",
-            "Spoken": "ARE-NAV"
-          }
-        ],
-        "AtisFrequency": 33650,
-        "ObservationTime": {
-          "Enabled": true,
-          "Time": 53
-        },
-        "MagneticVariation": {
-          "Enabled": true,
-          "MagneticDegrees": 10
-        },
-        "AtisVoice": {
-          "UseTextToSpeech": false,
-          "Voice": "US Male"
-        },
-        "IDSEndpoint": "",
-        "Presets": [
-          {
-            "Name": "PRESS \"ARPT COND\" TO START",
-            "AirportConditions": null,
-            "Notams": null,
-            "ArbitraryText": null,
-            "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
-            "ExternalGenerator": {
-              "Url": null,
-              "Arrival": null,
-              "Departure": null,
-              "Approaches": null,
-              "Remarks": null
-            }
-          }
-        ],
-        "AirportConditionDefinitions": [
-          {
-            "Ordinal": 1,
-            "Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 2,
-            "Text": "VIS APCH IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 3,
-            "Text": "ILS RY 2 APCH IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 4,
-            "Text": "RNAV RUNWAY 2 APPROACH IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 5,
-            "Text": "RNAV RUNWAY 20 APPROACH IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 6,
-            "Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 7,
-            "Text": "LDG AND DEPTG RY 2.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 8,
-            "Text": "LANDING AND DEPARTING RUNWAY 20.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 9,
-            "Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 10,
-            "Text": "VISUAL APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 11,
-            "Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 12,
-            "Text": "RNAV APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          }
-        ],
-        "AirportConditionsBeforeFreeText": false,
-        "NotamDefinitions": [
-          {
-            "Ordinal": 1,
-            "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 2,
-            "Text": "BA ADVZYS IN EFCT.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 3,
-            "Text": "WIND SHEAR ADVZYS IN EFCT..",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 4,
-            "Text": "HAZD WX INFO FOR HVN AREA AVBL ATC FREQ BY RQST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 5,
-            "Text": "VFR ACFT SAY DIRECTION OF FLIGHT.",
-            "Enabled": false
-          }
-        ],
-        "NotamsBeforeFreeText": false,
-        "TransitionLevels": [],
-        "UseFaaFormat": true,
-        "UseExternalAtisGenerator": false,
-        "UseNotamPrefix": true,
-        "UseTransitionLevelPrefix": false,
-        "UseMetricUnits": false,
-        "UseSurfaceWindPrefix": false,
-        "UseVisibilitySuffix": false,
-        "UseDecimalTerminology": false
-      },
-      {
-        "Name": "Oxford",
-        "Identifier": "KOXC",
-        "AtisType": 0,
-        "Contractions": [
-          {
-            "String": "OXC",
-            "Spoken": "OXFORD"
-          },
-          {
-            "String": "RNAV",
-            "Spoken": "ARE-NAV"
-          }
-        ],
-        "AtisFrequency": 32975,
-        "ObservationTime": {
-          "Enabled": true,
-          "Time": 51
-        },
-        "MagneticVariation": {
-          "Enabled": true,
-          "MagneticDegrees": 10
-        },
-        "AtisVoice": {
-          "UseTextToSpeech": false,
-          "Voice": "Default"
-        },
-        "IDSEndpoint": "",
-        "Presets": [
-          {
-            "Name": "PRESS \"ARPT COND\" TO START",
-            "AirportConditions": null,
-            "Notams": null,
-            "ArbitraryText": null,
-            "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
-            "ExternalGenerator": {
-              "Url": null,
-              "Arrival": null,
-              "Departure": null,
-              "Approaches": null,
-              "Remarks": null
-            }
-          }
-        ],
-        "AirportConditionDefinitions": [
-          {
-            "Ordinal": 1,
-            "Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 2,
-            "Text": "VIS APCH IN USE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 3,
-            "Text": "RNAV RUNWAY 18 APPROACH IN USE",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 4,
-            "Text": "ILS RUNWAY 36 APPROACH IN USE",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 5,
-            "Text": "RNAV RUNWAY 36 APPROACH IN USE",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 6,
-            "Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 7,
-            "Text": "LANDING AND DEPARTING RUNWAY 18",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 8,
-            "Text": "LANDING AND DEPARTING RUNWAY 36",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 9,
-            "Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 10,
-            "Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 11,
-            "Text": "VISUAL APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 12,
-            "Text": "RNAV APCH AVAILABLE ON REQUEST.",
-            "Enabled": false
-          }
-        ],
-        "AirportConditionsBeforeFreeText": false,
-        "NotamDefinitions": [
-          {
-            "Ordinal": 1,
-            "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 2,
-            "Text": "BA ADVZYS IN EFCT.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 3,
-            "Text": "WIND SHEAR ADVZYS IN EFCT.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 4,
-            "Text": "HAZD WX INFO FOR OXC AREA AVBL ATC FREQ BY RQST.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 5,
-            "Text": "VFR ACFT SAY DIRECTION OF FLIGHT.",
-            "Enabled": false
-          }
-        ],
-        "NotamsBeforeFreeText": false,
-        "TransitionLevels": [],
-        "UseFaaFormat": true,
-        "UseExternalAtisGenerator": false,
-        "UseNotamPrefix": true,
-        "UseTransitionLevelPrefix": false,
-        "UseMetricUnits": false,
-        "UseSurfaceWindPrefix": false,
-        "UseVisibilitySuffix": false,
-        "UseDecimalTerminology": false
-      }
-    ]
-  }
+	"Name": "N90 Islip",
+	"Composites": [
+		{
+			"Name": "Long Island",
+			"Identifier": "KISP",
+			"AtisType": 0,
+			"Contractions": [
+				{
+					"String": "ISP",
+					"Spoken": "LONG ISLAND"
+				},
+				{
+					"String": "RNAV",
+					"Spoken": "ARE-NAV"
+				}
+			],
+			"AtisFrequency": 20725,
+			"ObservationTime": {
+				"Enabled": true,
+				"Time": 56
+			},
+			"MagneticVariation": {
+				"Enabled": true,
+				"MagneticDegrees": 10
+			},
+			"AtisVoice": {
+				"UseTextToSpeech": false,
+				"Voice": "Default"
+			},
+			"IDSEndpoint": "",
+			"Presets": [
+				{
+					"Name": "PRESS \"ARPT COND\" TO START",
+					"AirportConditions": "",
+					"Notams": null,
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				}
+			],
+			"AirportConditionDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "VIS APCHS IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 3,
+					"Text": "ILS APCH RWY 6 IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "ILS RWY 24 APCH IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 5,
+					"Text": "RNAV APCH RWY 15R IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 6,
+					"Text": "RNAV APCH RWY 33L IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 7,
+					"Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 8,
+					"Text": "LANDING AND DEPARTING RWY 6.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 9,
+					"Text": "LDG AND DEPTG RY 24.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 10,
+					"Text": "LANDING RWY 15R. DEPARTING RWYS 15R AND 15L.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 11,
+					"Text": "LANDING RWY 33L. DEPARTING RWYS 33L AND 33R.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 12,
+					"Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 13,
+					"Text": "VISUAL APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 14,
+					"Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 15,
+					"Text": "RNAV APCH AVBL ON REQUEST.",
+					"Enabled": false
+				}
+			],
+			"AirportConditionsBeforeFreeText": false,
+			"NotamDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "BA ADVZYS IN EFCT",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 3,
+					"Text": "WIND SHEAR ADVZYS IN EFCT",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "HAZD WX INFO FOR ISP AREA AVBL ATC FREQ BY RQST",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 5,
+					"Text": "LAHSO IN EFCT",
+					"Enabled": false
+				}
+			],
+			"NotamsBeforeFreeText": false,
+			"TransitionLevels": [],
+			"UseFaaFormat": true,
+			"UseExternalAtisGenerator": false,
+			"UseNotamPrefix": true,
+			"UseTransitionLevelPrefix": false,
+			"UseMetricUnits": false,
+			"UseSurfaceWindPrefix": false,
+			"UseVisibilitySuffix": false,
+			"UseDecimalTerminology": false
+		},
+		{
+			"Name": "Bridgeport",
+			"Identifier": "KBDR",
+			"AtisType": 0,
+			"Contractions": [
+				{
+					"String": "BDR",
+					"Spoken": "BRIDGEPORT"
+				},
+				{
+					"String": "RNAV",
+					"Spoken": "ARE-NAV"
+				}
+			],
+			"AtisFrequency": 19150,
+			"ObservationTime": {
+				"Enabled": true,
+				"Time": 52
+			},
+			"MagneticVariation": {
+				"Enabled": true,
+				"MagneticDegrees": 10
+			},
+			"AtisVoice": {
+				"UseTextToSpeech": false,
+				"Voice": "US Male"
+			},
+			"IDSEndpoint": "",
+			"Presets": [
+				{
+					"Name": "PRESS \"ARPT COND\" TO START",
+					"AirportConditions": null,
+					"Notams": null,
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				}
+			],
+			"AirportConditionDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "VISUAL APPROACHES IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 3,
+					"Text": "ILS APCH RWY 6 IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "RNAV APCH RWY 24 IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 5,
+					"Text": "RNAV APCH RWY 29 IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 6,
+					"Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 7,
+					"Text": "LANDING AND DEPARTING RWY 6.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 8,
+					"Text": "LANDING AND DEPARTING RWY 11.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 9,
+					"Text": "LANDING AND DEPARTING RWY 24.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 10,
+					"Text": "LANDING AND DEPARTING RWY 29.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 11,
+					"Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 12,
+					"Text": "RWY 6 AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 13,
+					"Text": "RWY 24 AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 14,
+					"Text": "VISUAL APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 15,
+					"Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 16,
+					"Text": "RNAV APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				}
+			],
+			"AirportConditionsBeforeFreeText": false,
+			"NotamDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "BA ADVZYS IN EFCT.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 3,
+					"Text": "WIND SHEAR ADVZYS IN EFCT.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "HAZD WX INFO FOR BDR AREA AVBL ATC FREQ BY RQST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 5,
+					"Text": "LAHSO IN EFCT.",
+					"Enabled": false
+				}
+			],
+			"NotamsBeforeFreeText": false,
+			"TransitionLevels": [],
+			"UseFaaFormat": true,
+			"UseExternalAtisGenerator": false,
+			"UseNotamPrefix": true,
+			"UseTransitionLevelPrefix": false,
+			"UseMetricUnits": false,
+			"UseSurfaceWindPrefix": false,
+			"UseVisibilitySuffix": false,
+			"UseDecimalTerminology": false
+		},
+		{
+			"Name": "New Haven",
+			"Identifier": "KHVN",
+			"AtisType": 0,
+			"Contractions": [
+				{
+					"String": "HVN",
+					"Spoken": "NEW HAVEN"
+				},
+				{
+					"String": "RNAV",
+					"Spoken": "ARE-NAV"
+				}
+			],
+			"AtisFrequency": 33650,
+			"ObservationTime": {
+				"Enabled": true,
+				"Time": 53
+			},
+			"MagneticVariation": {
+				"Enabled": true,
+				"MagneticDegrees": 10
+			},
+			"AtisVoice": {
+				"UseTextToSpeech": false,
+				"Voice": "US Male"
+			},
+			"IDSEndpoint": "",
+			"Presets": [
+				{
+					"Name": "PRESS \"ARPT COND\" TO START",
+					"AirportConditions": null,
+					"Notams": null,
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				}
+			],
+			"AirportConditionDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "VIS APCH IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 3,
+					"Text": "ILS RY 2 APCH IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "RNAV RUNWAY 2 APPROACH IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 5,
+					"Text": "RNAV RUNWAY 20 APPROACH IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 6,
+					"Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 7,
+					"Text": "LDG AND DEPTG RY 2.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 8,
+					"Text": "LANDING AND DEPARTING RUNWAY 20.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 9,
+					"Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 10,
+					"Text": "VISUAL APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 11,
+					"Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 12,
+					"Text": "RNAV APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				}
+			],
+			"AirportConditionsBeforeFreeText": false,
+			"NotamDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "BA ADVZYS IN EFCT.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 3,
+					"Text": "WIND SHEAR ADVZYS IN EFCT..",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "HAZD WX INFO FOR HVN AREA AVBL ATC FREQ BY RQST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 5,
+					"Text": "VFR ACFT SAY DIRECTION OF FLIGHT.",
+					"Enabled": false
+				}
+			],
+			"NotamsBeforeFreeText": false,
+			"TransitionLevels": [],
+			"UseFaaFormat": true,
+			"UseExternalAtisGenerator": false,
+			"UseNotamPrefix": true,
+			"UseTransitionLevelPrefix": false,
+			"UseMetricUnits": false,
+			"UseSurfaceWindPrefix": false,
+			"UseVisibilitySuffix": false,
+			"UseDecimalTerminology": false
+		},
+		{
+			"Name": "Oxford",
+			"Identifier": "KOXC",
+			"AtisType": 0,
+			"Contractions": [
+				{
+					"String": "OXC",
+					"Spoken": "OXFORD"
+				},
+				{
+					"String": "RNAV",
+					"Spoken": "ARE-NAV"
+				}
+			],
+			"AtisFrequency": 32975,
+			"ObservationTime": {
+				"Enabled": true,
+				"Time": 51
+			},
+			"MagneticVariation": {
+				"Enabled": true,
+				"MagneticDegrees": 10
+			},
+			"AtisVoice": {
+				"UseTextToSpeech": false,
+				"Voice": "Default"
+			},
+			"IDSEndpoint": "",
+			"Presets": [
+				{
+					"Name": "PRESS \"ARPT COND\" TO START",
+					"AirportConditions": null,
+					"Notams": null,
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				}
+			],
+			"AirportConditionDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "======= STEP 1: SELECT APPROACH(ES) IN USE =======",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "VIS APCH IN USE.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 3,
+					"Text": "RNAV RUNWAY 18 APPROACH IN USE",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "ILS RUNWAY 36 APPROACH IN USE",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 5,
+					"Text": "RNAV RUNWAY 36 APPROACH IN USE",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 6,
+					"Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 7,
+					"Text": "LANDING AND DEPARTING RUNWAY 18",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 8,
+					"Text": "LANDING AND DEPARTING RUNWAY 36",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 9,
+					"Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 10,
+					"Text": "INSTRUMENT APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 11,
+					"Text": "VISUAL APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 12,
+					"Text": "RNAV APCH AVAILABLE ON REQUEST.",
+					"Enabled": false
+				}
+			],
+			"AirportConditionsBeforeFreeText": false,
+			"NotamDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "BA ADVZYS IN EFCT.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 3,
+					"Text": "WIND SHEAR ADVZYS IN EFCT.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "HAZD WX INFO FOR OXC AREA AVBL ATC FREQ BY RQST.",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 5,
+					"Text": "VFR ACFT SAY DIRECTION OF FLIGHT.",
+					"Enabled": false
+				}
+			],
+			"NotamsBeforeFreeText": false,
+			"TransitionLevels": [],
+			"UseFaaFormat": true,
+			"UseExternalAtisGenerator": false,
+			"UseNotamPrefix": true,
+			"UseTransitionLevelPrefix": false,
+			"UseMetricUnits": false,
+			"UseSurfaceWindPrefix": false,
+			"UseVisibilitySuffix": false,
+			"UseDecimalTerminology": false
+		}
+	]
+}

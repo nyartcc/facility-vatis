@@ -1,146 +1,146 @@
 {
-    "Name": "Ithaca",
-    "Composites": [
-        {
-            "Name": "Ithaca",
-            "Identifier": "KITH",
-            "AtisType": 0,
-            "Contractions": [
-                {
-                    "String": "KITH",
-                    "Spoken": "ITHACA TOMPKINS"
-                }
-            ],
-            "AtisFrequency": 18000,
-            "ObservationTime": {
-                "Enabled": false,
-                "Time": 0
-            },
-            "MagneticVariation": {
-                "Enabled": true,
-                "MagneticDegrees": 10
-            },
-            "AtisVoice": {
-                "UseTextToSpeech": false,
-                "Voice": "Default"
-            },
-            "IDSEndpoint": "",
-            "Presets": [
-                {
-                    "Name": "PRESS \"ARPT COND\" TO START",
-                    "AirportConditions": null,
-                    "Notams": null,
-                    "ArbitraryText": null,
-                    "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
-                    "ExternalGenerator": {
-                        "Url": null,
-                        "Arrival": null,
-                        "Departure": null,
-                        "Approaches": null,
-                        "Remarks": null
-                    }
-                }
-            ],
-            "AirportConditionDefinitions": [
-                {
-                    "Ordinal": 1,
-                    "Text": "=====STEP 1: SELECT APPROACH(ES) IN USE=====",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 2,
-                    "Text": "VISUAL APPROACHES IN USE",
-                    "Enabled": true
-                },
-                {
-                    "Ordinal": 3,
-                    "Text": "RNAV Y APCH RWY 14 IN USE",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 4,
-                    "Text": "RNAV Z APCH RWY 14 IN USE",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 5,
-                    "Text": "ILS APCH RWY 32 IN USE",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 6,
-                    "Text": "RNAV APCH RWY 32 IN USE",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 7,
-                    "Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 8,
-                    "Text": "LANDING AND DEPARTING RUNWAY 14",
-                    "Enabled": true
-                },
-                {
-                    "Ordinal": 9,
-                    "Text": "LANDING AND DEPARTING RUNWAY 32",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 10,
-                    "Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 11,
-                    "Text": "VISUAL APCH AVAILABLE UPON REQUEST",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 12,
-                    "Text": "INSTRUMENT APCH AVAILABLE UPON REQUEST",
-                    "Enabled": true
-                },
-                {
-                    "Ordinal": 13,
-                    "Text": "RNAV APCH AVAILABLE UPON REQUEST",
-                    "Enabled": false
-                }
-            ],
-            "AirportConditionsBeforeFreeText": false,
-            "NotamDefinitions": [
-                {
-                    "Ordinal": 1,
-                    "Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 2,
-                    "Text": "BA ADVZYS IN EFCT",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 3,
-                    "Text": "WIND SHEAR ADVZYS IN EFCT",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 4,
-                    "Text": "HAZD WX INFO FOR ISP AREA AVBL ATC FREQ BY RQST",
-                    "Enabled": false
-                }
-            ],
-            "NotamsBeforeFreeText": false,
-            "TransitionLevels": [],
-            "UseFaaFormat": true,
-            "UseExternalAtisGenerator": false,
-            "UseNotamPrefix": true,
-            "UseTransitionLevelPrefix": false,
-            "UseMetricUnits": false,
-            "UseSurfaceWindPrefix": false,
-            "UseVisibilitySuffix": false,
-            "UseDecimalTerminology": false
-        }
-    ]
+	"Name": "Ithaca",
+	"Composites": [
+		{
+			"Name": "Ithaca",
+			"Identifier": "KITH",
+			"AtisType": 0,
+			"Contractions": [
+				{
+					"String": "KITH",
+					"Spoken": "ITHACA TOMPKINS"
+				}
+			],
+			"AtisFrequency": 18000,
+			"ObservationTime": {
+				"Enabled": false,
+				"Time": 0
+			},
+			"MagneticVariation": {
+				"Enabled": true,
+				"MagneticDegrees": 10
+			},
+			"AtisVoice": {
+				"UseTextToSpeech": false,
+				"Voice": "Default"
+			},
+			"IDSEndpoint": "",
+			"Presets": [
+				{
+					"Name": "PRESS \"ARPT COND\" TO START",
+					"AirportConditions": null,
+					"Notams": null,
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				}
+			],
+			"AirportConditionDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "=====STEP 1: SELECT APPROACH(ES) IN USE=====",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "VISUAL APPROACHES IN USE",
+					"Enabled": true
+				},
+				{
+					"Ordinal": 3,
+					"Text": "RNAV Y APCH RWY 14 IN USE",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "RNAV Z APCH RWY 14 IN USE",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 5,
+					"Text": "ILS APCH RWY 32 IN USE",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 6,
+					"Text": "RNAV APCH RWY 32 IN USE",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 7,
+					"Text": "=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 8,
+					"Text": "LANDING AND DEPARTING RUNWAY 14",
+					"Enabled": true
+				},
+				{
+					"Ordinal": 9,
+					"Text": "LANDING AND DEPARTING RUNWAY 32",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 10,
+					"Text": "== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 11,
+					"Text": "VISUAL APCH AVAILABLE UPON REQUEST",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 12,
+					"Text": "INSTRUMENT APCH AVAILABLE UPON REQUEST",
+					"Enabled": true
+				},
+				{
+					"Ordinal": 13,
+					"Text": "RNAV APCH AVAILABLE UPON REQUEST",
+					"Enabled": false
+				}
+			],
+			"AirportConditionsBeforeFreeText": false,
+			"NotamDefinitions": [
+				{
+					"Ordinal": 1,
+					"Text": "SEVERE WEATHER AVOIDANCE PLAN IN EFFECT",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 2,
+					"Text": "BA ADVZYS IN EFCT",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 3,
+					"Text": "WIND SHEAR ADVZYS IN EFCT",
+					"Enabled": false
+				},
+				{
+					"Ordinal": 4,
+					"Text": "HAZD WX INFO FOR ISP AREA AVBL ATC FREQ BY RQST",
+					"Enabled": false
+				}
+			],
+			"NotamsBeforeFreeText": false,
+			"TransitionLevels": [],
+			"UseFaaFormat": true,
+			"UseExternalAtisGenerator": false,
+			"UseNotamPrefix": true,
+			"UseTransitionLevelPrefix": false,
+			"UseMetricUnits": false,
+			"UseSurfaceWindPrefix": false,
+			"UseVisibilitySuffix": false,
+			"UseDecimalTerminology": false
+		}
+	]
 }

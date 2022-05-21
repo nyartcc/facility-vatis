@@ -1,9 +1,20 @@
 const fs = require('fs');
 
 /**
- * Copy N90 individual profiles as-is
+ * Format stringify before writing to a profile (call once for each profile)
+ * 
+ * From .editorconfig
+ * end_of_line = lf
+ * insert_final_newline = true
+ * indent_style = tab
+ * indent_size = 2
  */
-function buildN90PHLProfiles() {
+const formatStringify = combinedObject => JSON.stringify(combinedObject, null, "\t") + '\n';
+
+/**
+ * Copy N90 and PHL profiles as-is
+ */
+function copyN90PHLProfiles() {
     Promise.all(
         fs.readdirSync('source/').filter(filename => filename.match('vATIS-v4_(N90_[A-Z]{3}|PHL).json')).map(filename => {
             fs.promises.copyFile(`source/${filename}`, `build/${filename}`)
@@ -14,7 +25,7 @@ function buildN90PHLProfiles() {
 }
 
 /**
- * N90 Combined
+ * Build N90 Combined profile from LGA, JFK, ISP, and EWR
  */
 function buildN90CombinedProfile() {
     let lga = fs.promises.readFile('source/vATIS-v4_N90_LGA.json', 'utf8').then(data => {
@@ -40,12 +51,12 @@ function buildN90CombinedProfile() {
         }
 
         fs.writeFileSync(`build/vATIS-v4_${combinedObject.Name.replace(' ', '_')}.json`,
-            JSON.stringify(combinedObject, null, 4), 'utf8', 'rw');
+            formatStringify(combinedObject), 'utf8', 'rw');
     })
 }
 
 /**
- * Minors
+ * Build Minor profiles
  */
 function buildMinorProfiles() {
     /**
@@ -66,7 +77,7 @@ function buildMinorProfiles() {
         }
 
         fs.writeFileSync(`build/minor/vATIS-v4_${combinedObject.Name.replace(' ', '_')}.json`,
-            JSON.stringify(combinedObject, null, 4), 'utf8', 'rw');
+            formatStringify(combinedObject), 'utf8', 'rw');
 
         console.log(`Built ${combinedObject.Name} profile!`)
     })
@@ -91,7 +102,7 @@ function buildMinorProfiles() {
         }
 
         fs.writeFileSync(`build/minor/vATIS-v4_${combinedObject.Name.replace(' ', '_')}.json`,
-            JSON.stringify(combinedObject, null, 4), 'utf8', 'rw');
+            formatStringify(combinedObject), 'utf8', 'rw');
 
         console.log(`Built ${combinedObject.Name} profile!`)
     })
@@ -127,12 +138,12 @@ function buildMinorProfiles() {
         }
 
         fs.writeFileSync(`build/minor/vATIS-v4_${combinedObject.Name.replace(' ', '_')}.json`,
-            JSON.stringify(combinedObject, null, 4), 'utf8', 'rw');
+            formatStringify(combinedObject), 'utf8', 'rw');
 
         console.log(`Built ${combinedObject.Name} profile!`)
     })
 }
 
-buildN90PHLProfiles();
+copyN90PHLProfiles();
 buildN90CombinedProfile();
 buildMinorProfiles();
