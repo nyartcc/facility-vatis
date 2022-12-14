@@ -15,15 +15,15 @@ generate_archives:
   script:
     - node combination_tool.js
     - echo 'bundling N90 and PHL profiles...'
-    - zip -j vATIS-v4_N90-PHL_${CI_COMMIT_TAG:1}.zip build/*.json
+    - zip -j vATIS-v4_N90-PHL_${CI_COMMIT_TAG}.zip build/*.json
     - echo 'bundling minor profiles...'
-    - zip -j vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip build/minor/*.json
+    - zip -j vATIS-v4_MINOR_${CI_COMMIT_TAG}.zip build/minor/*.json
   artifacts:
     untracked: true
     expire_in: 180 days
     paths:
-      - vATIS-v4_N90-PHL_${CI_COMMIT_TAG:1}.zip
-      - vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip
+      - 'vATIS-v4_N90-PHL_${CI_COMMIT_TAG}.zip'
+      - 'vATIS-v4_MINOR_${CI_COMMIT_TAG}.zip'
     reports:
       dotenv: generate_archives.env
 release:
@@ -39,7 +39,7 @@ release:
     description: 'created using the release-cli'
     assets:
       links:
-        - name: 'vATIS ${CI_COMMIT_BRANCH}: N90 and PHL profile package'
-          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_N90-PHL_${CI_COMMIT_TAG:1}.zip'
-        - name: 'vATIS ${CI_COMMIT_BRANCH}: Minor profile package'
-          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_MINOR_${CI_COMMIT_TAG:1}.zip'
+        - name: 'vATIS: N90 and PHL profile package'
+          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_N90-PHL_${CI_COMMIT_TAG}.zip'
+        - name: 'vATIS: Minor profile package'
+          url: 'https://gitlab.com/ny-artcc/facility-files/vatis/-/jobs/${GP_JOB_ID}/artifacts/file/vATIS-v4_MINOR_${CI_COMMIT_TAG}.zip'
