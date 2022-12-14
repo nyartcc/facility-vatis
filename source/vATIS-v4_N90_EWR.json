@@ -1,5 +1,5 @@
 {
-	"Name": "N90 Newark Area",
+	"Name": "N90 Newark",
 	"Composites": [
 		{
 			"Name": "Newark",
@@ -31,7 +31,7 @@
 			"IDSEndpoint": null,
 			"Presets": [
 				{
-					"Name": "ILS 22R - DEP 22L@W",
+					"Name": "ILS 22L - DEP 22R@W",
 					"AirportConditions": "ILS RY 22L APCH IN USE. DEPTG RY 22R FROM INT *W, *10,150 FT TODA.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
 					"ArbitraryText": null,

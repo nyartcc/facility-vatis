@@ -1,5 +1,5 @@
 {
-	"Name": "N90 LaGuardia Area",
+	"Name": "N90 LaGuardia",
 	"Composites": [
 		{
 			"Name": "LaGuardia",
@@ -386,7 +386,7 @@
 			"UseDecimalTerminology": false
 		},
 		{
-			"Name": "Westchester",
+			"Name": "Westchester County",
 			"Identifier": "KHPN",
 			"AtisType": 0,
 			"Contractions": [
