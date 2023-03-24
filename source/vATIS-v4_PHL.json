@@ -31,7 +31,7 @@
 						"AirportConditions": "DEPTG RWY {27L}.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -45,7 +45,7 @@
 						"AirportConditions": "DEPTG RWY {27L}, RWY 35.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -59,7 +59,7 @@
 						"AirportConditions": "DEPTG RWY {27L}, RWY 17.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -73,7 +73,7 @@
 						"AirportConditions": "DEPTG RWY 27R.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -87,7 +87,7 @@
 						"AirportConditions": "DEPTG RWY 27R, RWY 35 FROM INT *K, *4,940 FT TODA.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -101,7 +101,7 @@
 						"AirportConditions": "DEPTG RWY {9L}.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -115,7 +115,7 @@
 						"AirportConditions": "DEPTG RWY {9L}, RWY 8.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -129,7 +129,7 @@
 						"AirportConditions": "DEPTG RWY {9L}, RWY 8, RWY 35.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -143,7 +143,7 @@
 						"AirportConditions": "DEPTG RWY {9L}, RWY 17, RWY 8.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -241,7 +241,7 @@
 						"AirportConditions": "ARRS EXP ILS APCH RWY {27R}.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -255,7 +255,7 @@
 						"AirportConditions": "SIMUL APCHS TO INTERSECTING RWYS {27R} AND 35 IN USE. ARRS EXP ILS APCH RWY {27R}, VIS APCH RWY 35. ",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -269,7 +269,7 @@
 						"AirportConditions": "SIMUL APCHS TO PARALLEL AND INTERSECTING RWYS {27R}, 35 AND 26 IN USE. ARRS EXP ILS APCH RWY {27R}, VIS APCH RWY 35, OR VIS APCH RWY 26.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -283,7 +283,7 @@
 						"AirportConditions": "SIMUL APCHS TO PARALLEL AND INTERSECTING RWYS {27R}, 17 AND 26 IN USE. ARRS EXP ILS APCH RWY {27R}, ILS *Z RWY 17 APCH, OR VIS APCH RWY 26.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -297,7 +297,7 @@
 						"AirportConditions": "SIMUL APCHS TO PARALLEL RWYS {27R} AND 26 IN USE. ARRS EXP ILS APCH RWY {27R}, OR ILS APCH RWY 26.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -311,7 +311,7 @@
 						"AirportConditions": "SIMUL APCHS TO PARALLEL RWYS {27R} AND {27L} IN USE. ARRS EXP ILS APCH RWY {27R}, OR LIBERTY VIS RWY {27L}.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -325,7 +325,7 @@
 						"AirportConditions": "SCIA RWYS {27L} AND 17 IN USE. ARRS EXP ILS APCH RWY {27L}, OR ILS *Z RWY 17 APCH.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -339,7 +339,7 @@
 						"AirportConditions": "SIMUL APCHS TO PARALLEL RWYS {27L} AND 26 IN USE. ARRS EXP ILS APCH RWY {27L}, OR VIS APCH RWY 26.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -353,7 +353,7 @@
 						"AirportConditions": "ARRS EXP ILS *Z RWY {9R} APCH.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -367,7 +367,7 @@
 						"AirportConditions": "SIMUL APCHS TO INTERSECTING RWYS {9R} AND 35 IN USE. ARRS EXP ILS *Z RWY {9R} APCH, OR VIS APCH RWY 35.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -381,7 +381,7 @@
 						"AirportConditions": "SCIA APCHS TO RWYS {9R} AND 17 IN USE. ARRS EXP ILS *V RWY {9R} APCH, OR ILS *V RWY 17 APCH.",
 						"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFO [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -470,7 +470,7 @@
 						"AirportConditions": null,
 						"Notams": null,
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -660,7 +660,7 @@
 						"AirportConditions": null,
 						"Notams": null,
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,
@@ -815,7 +815,7 @@
 						"AirportConditions": null,
 						"Notams": null,
 						"ArbitraryText": null,
-						"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+						"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 						"ExternalGenerator": {
 							"Url": null,
 							"Arrival": null,

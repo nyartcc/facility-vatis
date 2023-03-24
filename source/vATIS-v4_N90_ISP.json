@@ -35,7 +35,7 @@
 					"AirportConditions": "",
 					"Notams": null,
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -194,7 +194,7 @@
 					"AirportConditions": null,
 					"Notams": null,
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -358,7 +358,7 @@
 					"AirportConditions": null,
 					"Notams": null,
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -502,7 +502,7 @@
 					"AirportConditions": null,
 					"Notams": null,
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,

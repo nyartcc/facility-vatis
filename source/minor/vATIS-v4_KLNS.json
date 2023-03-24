@@ -26,7 +26,7 @@
 					"AirportConditions": "",
 					"Notams": "",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,

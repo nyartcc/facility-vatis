@@ -35,7 +35,7 @@
 					"AirportConditions": "ILS RY 22L APCH IN USE. DEPTG RY 22R FROM INT *W, *10,150 FT TODA.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -49,7 +49,7 @@
 					"AirportConditions": "ILS RY 4R APCH IN USE. GLS APPROACH AVAILABLE UPON REQUEST. DEPTG RY 4L.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -63,7 +63,7 @@
 					"AirportConditions": "STADIUM VIS RY 29 APCH IN USE. ILS RY 22L APCH AVBL UPON RQST. DEPTG RY 22R FROM INT *Y, *9,850 FT TODA.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -77,7 +77,7 @@
 					"AirportConditions": "BRIDGE VIS RY 29 APCH IN USE. ILS RY 4R APCH AVBL UPON RQST. DEPTG RY 4L.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -91,7 +91,7 @@
 					"AirportConditions": "RNAV *Y RY 29 APCH IN USE. ILS RY 22L APCH AVBL UPON RQST. DEPTG RY 22R FROM INT *Y, *9,850 FT TODA.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -105,7 +105,7 @@
 					"AirportConditions": "RNAV *Z RY 29 APCH IN USE. ILS RY 4R APCH AVBL UPON RQST. DEPTG RY 4L.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -193,7 +193,7 @@
 					"AirportConditions": "ILS RY 6 APCH IN USE. LDG RY 6, DEPTG RY 1.",
 					"Notams": "ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -207,7 +207,7 @@
 					"AirportConditions": "ILS RY 19 APCH INSUE. LDG RY 19, DEPTG RY 24.",
 					"Notams": "ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -221,7 +221,7 @@
 					"AirportConditions": "RNAV GPS RY 24 APCH IN USE. LDG AND DEPTG RY 24.",
 					"Notams": "ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.",
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
@@ -315,7 +315,7 @@
 					"AirportConditions": null,
 					"Notams": null,
 					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
 					"ExternalGenerator": {
 						"Url": null,
 						"Arrival": null,
