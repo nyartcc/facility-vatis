@@ -129,8 +129,8 @@
 					}
 				},
 				{
-					"Name": "PARK 31 - DEP 4",
-					"AirportConditions": "PARK VIS RY 31 APCH IN USE. ILS RY 4 APCH AVBL UPON RQST. DEPTG RY 4.",
+					"Name": "RNAV X (PARK VIS) 31 - DEP 4",
+					"AirportConditions": "RNAV *X RY 31 APCH IN USE. PARK VIS RY 31 APCH, ILS RY 4 APCH AVBL UPON RQST. DEPTG RY 4.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 					"ArbitraryText": null,
 					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -143,8 +143,8 @@
 					}
 				},
 				{
-					"Name": "PARK 31 - DEP 31",
-					"AirportConditions": "PARK VIS RY 31 APCH IN USE. ILS RY 4 APCH AVBL UPON RQST. DEPTG RY 31.",
+					"Name": "RNAV Z (LOC) 31 - DEP 4",
+					"AirportConditions": "RNAV *Z RY 31 APCH IN USE. LOC RY 31 APCH AVBL UPON RQST. DEPTG RY 4.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 					"ArbitraryText": null,
 					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -157,22 +157,8 @@
 					}
 				},
 				{
-					"Name": "LOC 31 - DEP 4",
-					"AirportConditions": "RNAV *X RY 31 APCH IN USE. DEPTG RY 4.",
-					"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
-					"ArbitraryText": null,
-					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
-					"ExternalGenerator": {
-						"Url": null,
-						"Arrival": null,
-						"Departure": null,
-						"Approaches": null,
-						"Remarks": null
-					}
-				},
-				{
-					"Name": "LOC 31 - DEP 31",
-					"AirportConditions": "LOC RY 31 APCH IN USE. DEPTG RY 31.",
+					"Name": "RNAV Z (LOC) 31 - DEP 31",
+					"AirportConditions": "RNAV *Z RY 31 APCH IN USE. LOC RY 31 APCH AVBL UPON RQST. DEPTG RY 31.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 					"ArbitraryText": null,
 					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -187,6 +173,20 @@
 				{
 					"Name": "ILS 13 - DEP 4",
 					"AirportConditions": "ILS RY 13 APCH IN USE. DEPTG RY 4.",
+					"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
+					"ArbitraryText": null,
+					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+					"ExternalGenerator": {
+						"Url": null,
+						"Arrival": null,
+						"Departure": null,
+						"Approaches": null,
+						"Remarks": null
+					}
+				},
+				{
+					"Name": "ILS 13 - DEP 13",
+					"AirportConditions": "ILS RY 13 APCH IN USE. DEPTG RY 13.",
 					"Notams": "OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.",
 					"ArbitraryText": null,
 					"Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
