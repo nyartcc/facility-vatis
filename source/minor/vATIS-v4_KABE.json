@@ -144,7 +144,6 @@
 			"NotamsBeforeFreeText": false,
 			"TransitionLevels": [],
 			"UseFaaFormat": true,
-			"UseExternalAtisGenerator": false,
 			"UseNotamPrefix": true,
 			"UseTransitionLevelPrefix": false,
 			"UseMetricUnits": false,
