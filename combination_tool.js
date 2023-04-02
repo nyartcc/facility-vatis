@@ -29,11 +29,12 @@ function copyN90PHLProfiles() {
  */
 function buildN90CombinedProfile() {
     let lga = fs.promises.readFile('source/vATIS-v4_N90_LGA.json', 'utf8').then(data => {
-        return Promise.resolve(JSON.parse(data).Composites.filter(comp => comp.Identifier == 'KLGA'))
+        let pick = ['KLGA', 'KHPN']
+        return Promise.resolve(JSON.parse(data).Composites.filter(comp => pick.includes(comp.Identifier)))
     });
 
     let jfk = fs.promises.readFile('source/vATIS-v4_N90_JFK.json', 'utf8').then(data => {
-        return Promise.resolve(JSON.parse(data).Composites.filter(comp => comp.Identifier == 'KJFK'))
+        return Promise.resolve(JSON.parse(data).Composites)
     });
 
     let isp = fs.promises.readFile('source/vATIS-v4_N90_ISP.json', 'utf8').then(data => {
@@ -41,7 +42,8 @@ function buildN90CombinedProfile() {
     });
 
     let ewr = fs.promises.readFile('source/vATIS-v4_N90_EWR.json', 'utf8').then(data => {
-        return Promise.resolve(JSON.parse(data).Composites.filter(comp => comp.Identifier == 'KEWR'))
+        let pick = ['KEWR', 'KTEB']
+        return Promise.resolve(JSON.parse(data).Composites.filter(comp => pick.includes(comp.Identifier)))
     });
 
     Promise.all([lga, jfk, isp, ewr]).then(values => {
