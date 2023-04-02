@@ -6,7 +6,7 @@ stages:
   - "release"
 generate_archives:
   stage: generate_archives
-  image: node:18.2.0-alpine3.14
+  image: node:19-alpine
   before_script:
     - echo $CI_JOB_ID
     - echo GP_JOB_ID=$CI_JOB_ID >> generate_archives.env
