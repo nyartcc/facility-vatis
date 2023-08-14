@@ -2287,7 +2287,7 @@
         {
           "id": "0c5c7996-9cf2-4980-99ff-5b21853cfea9",
           "name": "ILS 19 - DEP 24",
-          "airportConditions": "ILS RY 19 APCH INSUE. LDG RY 19, DEPTG RY 24.",
+          "airportConditions": "ILS RY 19 APCH IN USE. LDG RY 19, DEPTG RY 24.",
           "notams": "ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. [CLOSING].",
           "externalGenerator": {
