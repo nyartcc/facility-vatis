@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KPHL" Name="Philadelphia" UpdatedOn="2020-01-01T22:11:23.5865938+01:00">
+  <Frequency>33400</Frequency>
+  <VoiceServer>rw.liveatc.net</VoiceServer>
+  <InformationDisplaySystemEndpoint />
+  <MetarObservation ObservationTimeValue="54" Enable="true" />
+  <MagneticVariation MagneticVariationValue="10" Option="Add" />
+  <Contractions>
+    <Contraction Key="PHL" Value="PHILADELPHIA" />
+  </Contractions>
+  <Profiles>
+    <Profile Name="ILS27R - DEP 27L">
+      <AirportConditions>ARRS EXP ILS APCH RWY 27R. DEPTG RWY 27L.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS27R VIS35 - DEP 27L 35">
+      <AirportConditions>SIMUL APCHS TO INTERSECTING RWYS 27R AND 35 IN USE. ARRS EXP ILS APCH RWY 27R, VIS APCH RWY 35. DEPTG RWY 27L, RWY 35.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS27R VIS35 VIS26 - DEP 27L">
+      <AirportConditions>SIMUL APCHS TO PARALLEL AND INTERSECTING RWYS 27R, 35 AND 26 IN USE. ARRS EXP ILS APCH RWY 27R, VIS APCH RWY 35, OR VIS APCH RWY 26. DEPTG RWY 27L.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS27R VIS35 VIS26 - DEP 27L 35">
+      <AirportConditions>SIMUL APCHS TO PARALLEL AND INTERSECTING RWYS 27R, 35 AND 26 IN USE. ARRS EXP ILS APCH RWY 27R, VIS APCH RWY 35, OR VIS APCH RWY 26. DEPTG RWY 27L, RWY 35.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS27R ILS17 VIS26 - DEP 27L 17">
+      <AirportConditions>SIMUL APCHS TO PARALLEL AND INTERSECTING RWYS 27R, 17 AND 26 IN USE. ARRS EXP ILS APCH RWY 27R, ILS *Z RWY 17 APCH, OR VIS APCH RWY 26. DEPTG RWY 27L, RWY 17.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS27R ILS26 - DEP 27L">
+      <AirportConditions>SIMUL APCHS TO PARALLEL RWYS 27R AND 26 IN USE. ARRS EXP ILS APCH RWY 27R, OR ILS APCH RWY 26. DEPTG RWY 27L.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS27R LIB27L - DEP 27L 35">
+      <AirportConditions>SIMUL APCHS TO PARALLEL RWYS 27R AND 27L IN USE. ARRS EXP ILS APCH RWY 27R, OR LIBERTY VIS RWY 27L. DEPTG RWY 27L, RWY 35.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS27L ILS17 - DEP 27R">
+      <AirportConditions>SIMUL APCHS TO INTERSECTING RWYS 27L AND 17 IN USE. ARRS EXP ILS APCH RWY 27L, OR ILS *Z RWY 17 APCH. DEPTG RWY 27R.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS27L VIS26 - DEP 27R 35@K">
+      <AirportConditions>SIMUL APCHS TO PARALLEL RWYS 27L AND 26 IN USE. ARRS EXP ILS APCH RWY 27L, OR VIS APCH RWY 26. DEPTG RWY 27R, RWY 35 FROM INT *K, *4,940 FT TODA.</AirportConditions>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS9R - DEP 9L">
+      <AirportConditions>ARRS EXP ILS *Z RWY 9R APCH. DEPTG RWY 9L.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS9R - DEP 9L 8">
+      <AirportConditions>ARRS EXP ILS *Z RWY 9R APCH. DEPTG RWY 9L, RWY 8.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS9R VIS35 - DEP 9L 8">
+      <AirportConditions>SIMUL APCHS TO INTERSECTING RWYS 9R AND 35 IN USE. ARRS EXP ILS *Z RWY 9R APCH, OR VIS APCH RWY 35. DEPTG RWY 9L, RWY 8.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS9R VIS35 - DEP 9L 8 35">
+      <AirportConditions>SIMUL APCHS TO INTERSECTING RWYS 9R AND 35 IN USE. ARRS EXP ILS *Z RWY 9R APCH, OR VIS APCH RWY 35. DEPTG RWY 9L, RWY 8, RWY 35.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS9R ILS17 - DEP 9L 8">
+      <AirportConditions>SIMUL CONVERGING INSTRUMENT APCHS TO RWYS 9R AND 17 IN USE. ARRS EXP ILS *V RWY 9R APCH, OR ILS *V RWY 17 APCH. DEPTG RWY 9L, RWY 8.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS9R ILS17 - DEP 9L 17 8">
+      <AirportConditions>SIMUL CONVERGING INSTRUMENT APCHS TO RWYS 9R AND 17 IN USE. ARRS EXP ILS *V RWY 9R APCH, OR ILS *V RWY 17 APCH. DEPTG RWY 9L, RWY 17, RWY 8.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. OPERATE XPDR ON MODE *C ON ALL TAXIWAYS AND RUNWAYS.</AtisTemplate>
+    </Profile>
+  </Profiles>
+  <UseInternationalFormat>false</UseInternationalFormat>
+  <VoiceRecordEnabled>false</VoiceRecordEnabled>
+  <VoiceName>Default</VoiceName>
+  <VoiceGender>Male</VoiceGender>
+  <Notams>
+    <Notam Message="NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT" IsSelected="false" />
+    <Notam Message="GROUND METERING IN EFFECT" IsSelected="false" />
+    <Notam Message="BA ADVZYS IN EFCT" IsSelected="false" />
+    <Notam Message="WIND SHEAR ADVZYS IN EFCT" IsSelected="false" />
+    <Notam Message="HAZD WX INFO FOR PHL AREA AVBL ATC FREQ BY RQST" IsSelected="false" />
+	<Notam Message="ALL ACFT USE TWR FREQ 118.5." IsSelected="false" />
+    <Notam Message="ACFT USING RY 27L CTC TWR 135.1. ALL OTHER ACFT USE FREQ 118.5." IsSelected="false" />
+    <Notam Message="ACFT USING RY 9L CTC TWR 118.5. ALL OTHER ACFT USE FREQ 135.1." IsSelected="false" />
+  </Notams>
+  <AirportConditions />
+</Facility>

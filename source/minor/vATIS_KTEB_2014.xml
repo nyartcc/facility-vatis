@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KTEB" Name="Teterboro" UpdatedOn="2020-12-25T22:28:36.7005735+01:00">
+  <Frequency>32850</Frequency>
+  <VoiceServer>rw.liveatc.net</VoiceServer>
+  <InformationDisplaySystemEndpoint />
+  <MetarObservation ObservationTimeValue="51" Enable="true" />
+  <MagneticVariation MagneticVariationValue="10" Option="Add" />
+  <Contractions>
+    <Contraction Key="TEB" Value="TETERBORO" />
+    <Contraction Key="RNAV" Value="ARE-NAV" />
+  </Contractions>
+  <Profiles>
+    <Profile Name="ILS 19 - DEP 24">
+      <AirportConditions>ILS RY 19 APCH IN USE. LDG RY 19, DEPTG RY 24.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY TEB ARPT. TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED. ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS 6 - DEP 1">
+      <AirportConditions>ILS RY 6 APCH IN USE. LDG RY 6, DEPTG RY 1.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY TEB ARPT. TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED. ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS 19 - DEP 19">
+      <AirportConditions>ILS RY 19 APCH IN USE. LDG RY 19, DEPTG RY 19.</AirportConditions>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY TEB ARPT. TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED. ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+    <Profile Name="RNAV 24 - DEP 24">
+      <AirportConditions>RNAV RY 24 APCH IN USE. LDG RY 24, DEPTG RY 24.</AirportConditions>
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. BIRD ACTIVITY VICINITY TEB ARPT. TEB DEPS MUST COMPLY WITH ALL ALT RESTRICTIONS AS PUBLISHED. ALL PILOTS FOLLOW NOISE ABATEMENT PROCEDURES. READBACK HOLD SHORT INSTRUCTIONS.</AtisTemplate>
+    </Profile>
+  </Profiles>
+  <UseInternationalFormat>false</UseInternationalFormat>
+  <VoiceRecordEnabled>false</VoiceRecordEnabled>
+  <VoiceName>Default</VoiceName>
+  <VoiceGender>Male</VoiceGender>
+  <Notams>
+    <Notam Message="NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT" IsSelected="false" />
+    <Notam Message="GROUND METERING IN EFFECT" IsSelected="false" />
+    <Notam Message="BA ADVZYS IN EFCT" IsSelected="false" />
+    <Notam Message="WIND SHEAR ADVZYS IN EFCT" IsSelected="false" />
+    <Notam Message="HAZD WX INFO FOR TEB AREA AVBL ATC FREQ BY RQST" IsSelected="false" />
+    <Notam Message="ALL VFR DEPARTURES CONTACT CLEARANCE DELIVERY ON 128.05." IsSelected="false" />
+    <Notam Message="ALL POSITIONS COMBINED ON TWR FREQ 119.5." IsSelected="false" />
+    <Notam Message="ADVISE ON INITIAL CONTACT IF UNABLE TO ACCEPT THE RUUDY DEP." IsSelected="false" />
+  </Notams>
+  <AirportConditions />
+</Facility>

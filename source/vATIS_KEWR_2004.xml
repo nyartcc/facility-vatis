@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KEWR" Name="Newark" UpdatedOn="2020-01-01T16:39:55.5083334+01:00">
+  <Frequency>34820</Frequency>
+  <VoiceServer>rw.liveatc.net</VoiceServer>
+  <InformationDisplaySystemEndpoint />
+  <MetarObservation ObservationTimeValue="51" Enable="true" />
+  <MagneticVariation MagneticVariationValue="10" Option="Add" />
+  <Contractions>
+    <Contraction Key="EWR" Value="NEWARK" />
+  </Contractions>
+  <Profiles>
+    <Profile Name="ILS 4R - DEP 4L">
+      <AirportConditions>ILS RY 4R APCH IN USE. GLS APPROACH AVAILABLE UPON REQUEST. DEPTG RY 4L.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. USE CAUTION FOR BIRDS AND CRANES IN THE VICINITY OF EWR. OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT.</AtisTemplate>
+    </Profile>
+    <Profile Name="ILS 22L - DEP 22R@W">
+      <AirportConditions>ILS RY 22L APCH IN USE. DEPTG RY 22R FROM INT *W, *10,150 FT TODA.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. USE CAUTION FOR BIRDS AND CRANES IN THE VICINITY OF EWR. OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT.</AtisTemplate>
+    </Profile>
+    <Profile Name="STADIUM 29 - DEP 22R@Y">
+      <AirportConditions>STADIUM VIS RY 29 APCH IN USE. ILS RY 22L APCH AVBL UPON RQST. DEPTG RY 22R FROM INT *Y, *9,850 FT TODA.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. USE CAUTION FOR BIRDS AND CRANES IN THE VICINITY OF EWR. OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT.</AtisTemplate>
+    </Profile>
+    <Profile Name="BRIDGE 29 - DEP 4L">
+      <AirportConditions>BRIDGE VIS RY 29 APCH IN USE. ILS RY 4R APCH AVBL UPON RQST. DEPTG RY 4L.</AirportConditions>
+      <Notams />
+      <AtisTemplate>[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]. USE CAUTION FOR BIRDS AND CRANES IN THE VICINITY OF EWR. OPERATE XPDR ON MODE *C ON ALL TWYS AND RWYS. READBACK ALL RUNWAY HOLD SHORT INSTRUCTIONS AND ASSIGNED ALT.</AtisTemplate>
+    </Profile>
+  </Profiles>
+  <UseInternationalFormat>false</UseInternationalFormat>
+  <VoiceRecordEnabled>false</VoiceRecordEnabled>
+  <VoiceName>Default</VoiceName>
+  <VoiceGender>Male</VoiceGender>
+  <Notams>
+    <Notam Message="NEW YORK CENTER SEVERE WEATHER AVOIDANCE PLAN IN EFFECT" IsSelected="false" />
+    <Notam Message="GROUND METERING IN EFFECT" IsSelected="false" />
+    <Notam Message="BA ADVZYS IN EFCT" IsSelected="false" />
+    <Notam Message="WIND SHEAR ADVZYS IN EFCT" IsSelected="false" />
+    <Notam Message="HAZD WX INFO FOR EWR AREA AVBL ATC FREQ BY RQST" IsSelected="false" />
+	<Notam Message="LAHSO IN EFCT" IsSelected="false" />
+  </Notams>
+  <AirportConditions />
+</Facility>

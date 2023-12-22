@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KTTN" Name="Trenton Mercer" UpdatedOn="2020-12-25T23:58:22.6035199+01:00">
+  <Frequency>26770</Frequency>
+  <InformationDisplaySystemEndpoint />
+  <MetarObservation ObservationTimeValue="53" Enable="true" />
+  <MagneticVariation MagneticVariationValue="10" Option="Add" />
+  <Contractions />
+  <Profiles>
+    <Profile Name="PRESS &quot;ARPT COND&quot; TO START">
+      <AtisTemplate>[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].</AtisTemplate>
+    </Profile>
+  </Profiles>
+  <UseInternationalFormat>false</UseInternationalFormat>
+  <VoiceRecordEnabled>true</VoiceRecordEnabled>
+  <VoiceName>Default</VoiceName>
+  <VoiceGender>Male</VoiceGender>
+  <Notams>
+    <Notam Message="SEVERE WEATHER AVOIDANCE PLAN IN EFFECT." IsSelected="false" />
+    <Notam Message="BA ADVZYS IN EFCT." IsSelected="false" />
+    <Notam Message="WIND SHEAR ADVZYS IN EFCT." IsSelected="false" />
+    <Notam Message="HAZD WX INFO FOR TTN AREA AVBL ATC FREQ BY RQST." IsSelected="false" />
+    <Notam Message="VFR ACFT SAY DIRECTION OF FLIGHT." IsSelected="false" />
+  </Notams>
+  <AirportConditions>
+    <AirportCondition Message="======= STEP 1: SELECT APPROACH(ES) IN USE =======" IsSelected="false" />
+    <AirportCondition Message="ILS RUNWAY 6 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV Z RUNWAY 6 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV Y RUNWAY 6 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV RUNWAY 16 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV Z RUNWAY 24 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV Y RUNWAY 24 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="RNAV RUNWAY 34 APPROACH IN USE" IsSelected="false" />
+    <AirportCondition Message="VOR OR GPS APPROACH AVAILABLE ON REQUEST" IsSelected="false" />
+    <AirportCondition Message="=== STEP 2: SELECT LANDING AND DEPARTING RWYS ===" IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 6" IsSelected="false" />
+    <AirportCondition Message="LANDING AND DEPARTING RUNWAY 24" IsSelected="false" />
+    <AirportCondition Message="DEPARTING RUNWAY 34" IsSelected="false" />
+    <AirportCondition Message="DEPARTING RUNWAY 16" IsSelected="false" />
+    <AirportCondition Message="== STEP 3: SELECT ADDITIONAL INFO (NOT REQUIRED) ==" IsSelected="false" />
+    <AirportCondition Message="VISUAL APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="INSTRUMENT APCH AVAILABLE ON REQUEST." IsSelected="false" />
+    <AirportCondition Message="RNAV APCH AVAILABLE ON REQUEST." IsSelected="false" />
+  </AirportConditions>
+</Facility>
