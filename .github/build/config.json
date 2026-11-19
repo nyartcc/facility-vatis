@@ -1,0 +1,10 @@
+{
+
+    "prefix": "ZNY ",
+    "profiles":{
+        "PHL"      : ["KPHL_D","KPHL_A","KILG","KPNE","KTTN","KPHL"],
+        "N90"      : ["KJFK","KLGA","KEWR","KTEB","KHPN","KFRG","KISP","KDXR","KCDW","KMMU","KBDR","KHVN","KOXC","KSWF","KPOU"],
+        "Minors"   : ["KABE","KAVP","KBGM","KCXY","KELM","KITH","KLNS","KMDT","KNEL","KRDG","KUNV","KWRI","TXKF"],
+        "Combined" : ["KJFK","KLGA","KEWR","KTEB","KHPN","KPHL_A","KPHL_D","KPHL","KFRG","KISP","KDXR","KCDW","KMMU","KBDR","KHVN","KOXC","KSWF","KPOU","KTTN","KILG","KPNE","KABE","KAVP","KBGM","KCXY","KELM","KITH","KLNS","KMDT","KNEL","KRDG","KUNV","KWRI","TXKF"]
+    }
+}

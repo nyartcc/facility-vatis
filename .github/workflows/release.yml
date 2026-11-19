@@ -1,0 +1,26 @@
+name: Release profiles
+
+on: 
+  push:
+    tags:
+      - '**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: 'Build Profiles'
+        run: node .github/build/combine.js
+
+      - name: 'Publish Release'
+        uses: softprops/action-gh-release@v3
+        with:
+          files: output/*.json
